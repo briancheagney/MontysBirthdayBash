@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>4</AudioIndexer>
+      <AudioIndexer>6</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets>Windows</BuildTargets>
@@ -667,6 +667,10 @@
           <UnloadedRoom>
             <Description IsNull="True" />
             <Number>4</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>5</Number>
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
@@ -2552,7 +2556,7 @@
             <SpeechView>0</SpeechView>
             <StartX>204</StartX>
             <StartY>666</StartY>
-            <StartingRoom>3</StartingRoom>
+            <StartingRoom>5</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -4577,6 +4581,71 @@
                       </Sprite>
                     </Sprites>
                   </SpriteFolder>
+                  <SpriteFolder Name="Chord2">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="32" Width="100" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\bheagney\Downloads\ElectricalChord\ElectricalChord\Chord0.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>100</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="33" Width="100" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\bheagney\Downloads\ElectricalChord\ElectricalChord\Chord1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>100</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="34" Width="100" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\bheagney\Downloads\ElectricalChord\ElectricalChord\Chord2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>100</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="35" Width="100" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\bheagney\Downloads\ElectricalChord\ElectricalChord\Chord3.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>100</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
                 </SubFolders>
                 <Sprites>
                   <Sprite Slot="8" Width="100" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -5712,6 +5781,46 @@
                   </Loop>
                 </Loops>
               </View>
+              <View>
+                <ID>7</ID>
+                <Name>Chord2</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>50</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>32</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>33</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>34</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>35</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
             </Views>
           </ViewFolder>
         </SubFolders>
@@ -6075,6 +6184,19 @@ See KeyboardMovement.txt for details.
                 <SourceFileName>D:\Downloads\electriczap.wav</SourceFileName>
                 <Type>3</Type>
                 <FileLastModifiedDate>2024-09-11 11:26:17Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>4</ID>
+                <Index>6</Index>
+                <ScriptName>aElectriczap2</ScriptName>
+                <SourceFileName>C:\Users\bheagney\Downloads\ElectricalChord\ElectricalChord\electriczap2.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-09-11 15:00:47Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
