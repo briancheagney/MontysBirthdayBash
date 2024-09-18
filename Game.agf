@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>6</AudioIndexer>
+      <AudioIndexer>10</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets>Windows</BuildTargets>
@@ -2556,7 +2556,7 @@
             <SpeechView>0</SpeechView>
             <StartX>204</StartX>
             <StartY>666</StartY>
-            <StartingRoom>5</StartingRoom>
+            <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -3070,6 +3070,11 @@
           <DefaultValue>0</DefaultValue>
           <Name>numPresents</Name>
           <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue />
+          <Name>backMusic</Name>
+          <Type>AudioChannel*</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -6379,7 +6384,60 @@ See KeyboardMovement.txt for details.
         <SubFolders>
           <AudioClipFolder Name="Music">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>5</ID>
+                <Index>7</Index>
+                <ScriptName>aBackMusic_01</ScriptName>
+                <SourceFileName>C:\Users\bheagney\Downloads\BackgroundMusic\BackgroundMusic\Audition\Exports\backMusic_01.wav</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-09-18 14:51:24Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>6</ID>
+                <Index>8</Index>
+                <ScriptName>aBackMusic_02</ScriptName>
+                <SourceFileName>C:\Users\bheagney\Downloads\BackgroundMusic\BackgroundMusic\Audition\Exports\backMusic_02.wav</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-09-18 14:51:24Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>7</ID>
+                <Index>9</Index>
+                <ScriptName>aBackMusic_03</ScriptName>
+                <SourceFileName>C:\Users\bheagney\Downloads\BackgroundMusic\BackgroundMusic\Audition\Exports\backMusic_03.wav</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-09-18 14:51:24Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>8</ID>
+                <Index>10</Index>
+                <ScriptName>aBackMusic_04</ScriptName>
+                <SourceFileName>C:\Users\bheagney\Downloads\BackgroundMusic\BackgroundMusic\Audition\Exports\backMusic_04.wav</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-09-18 14:51:24Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultBundlingType>InSeparateVOX</DefaultBundlingType>
               <DefaultPriority>Inherit</DefaultPriority>
