@@ -44,6 +44,10 @@
             <Locked>False</Locked>
             <Visible>True</Visible>
           </Item>
+          <Item ID="0001">
+            <Locked>False</Locked>
+            <Visible>True</Visible>
+          </Item>
         </Items>
       </Objects>
       <Hotspots>

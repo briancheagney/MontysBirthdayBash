@@ -2149,6 +2149,27 @@
               </GUILabel>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>2</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>480</Height>
+              <ID>9</ID>
+              <Left>0</Left>
+              <Name>gButtons</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>640</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls />
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -2756,6 +2777,19 @@
         <StandardMode>False</StandardMode>
         <View>0</View>
       </MouseCursor>
+      <MouseCursor>
+        <Animate>False</Animate>
+        <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
+        <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
+        <AnimationDelay>5</AnimationDelay>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
+        <ID>10</ID>
+        <Image>2057</Image>
+        <Name>Drag</Name>
+        <StandardMode>True</StandardMode>
+        <View>0</View>
+      </MouseCursor>
     </Cursors>
     <Fonts>
       <Font>
@@ -3070,6 +3104,16 @@
           <DefaultValue>0</DefaultValue>
           <Name>numPresents</Name>
           <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>isDragging</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue />
+          <Name>draggedObject</Name>
+          <Type>Object*</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -4078,6 +4122,21 @@
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
                       <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="51" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\DDocuments\FA2024\IGS\ArrowButtons\ArrowLeft.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>32</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
