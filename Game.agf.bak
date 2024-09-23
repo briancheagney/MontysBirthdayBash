@@ -2756,6 +2756,19 @@
         <StandardMode>False</StandardMode>
         <View>0</View>
       </MouseCursor>
+      <MouseCursor>
+        <Animate>False</Animate>
+        <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
+        <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
+        <AnimationDelay>5</AnimationDelay>
+        <HotspotX>25</HotspotX>
+        <HotspotY>35</HotspotY>
+        <ID>10</ID>
+        <Image>51</Image>
+        <Name>Drag</Name>
+        <StandardMode>True</StandardMode>
+        <View>0</View>
+      </MouseCursor>
     </Cursors>
     <Fonts>
       <Font>
@@ -3070,6 +3083,16 @@
           <DefaultValue>0</DefaultValue>
           <Name>numPresents</Name>
           <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>isDragging</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue />
+          <Name>draggedObject</Name>
+          <Type>Object*</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -4269,6 +4292,21 @@
                   <Sprite Slot="7" Width="64" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Cursors\LookAt.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>64</ImportHeight>
+                      <ImportWidth>64</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="51" Width="64" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\bheagney\Downloads\Drag.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>64</ImportHeight>
