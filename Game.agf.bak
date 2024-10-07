@@ -2790,8 +2790,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>1138</StartX>
-            <StartY>540</StartY>
+            <StartX>1146</StartX>
+            <StartY>546</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2819,30 +2819,31 @@
         <Dialogs>
           <Dialog>
             <ID>0</ID>
-            <Name>dDialog1</Name>
+            <Name>dHelSeller01</Name>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-return
-@1
-return
-@2
+Human01: Yeah I gots yer Helium.
+Monty: Thanks!
+Human01: That'll be one 'tousand bazingos.
+Monty: That's more than we planned!
+Monty: I don't have that much.
+Human01: Supplize and demanz, my ugly friend.
+run-script 1
 return
 ]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">How Are You?</Text>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text>Wuzzup</Text>
-              </DialogOption>
-            </DialogOptions>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>1</ID>
+            <Name>dHelSeller02</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Human01: Supplize and demanz, my ugly friend.
+return
+]]></Script>
+            <DialogOptions />
           </Dialog>
         </Dialogs>
       </DialogFolder>
@@ -3320,6 +3321,11 @@ return
           <DefaultValue />
           <Name>BackgroundMusic</Name>
           <Type>AudioChannel*</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>Puzzle01Stage</Name>
+          <Type>int</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -4857,7 +4863,7 @@ return
                     <Sprites>
                       <Sprite Slot="12" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\HumanIdle01.png</FileName>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\human01.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>186</ImportHeight>
