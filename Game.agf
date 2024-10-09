@@ -5655,6 +5655,116 @@ return
                       </Sprite>
                     </Sprites>
                   </SpriteFolder>
+                  <SpriteFolder Name="Confetti">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="104" Width="300" Height="300" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Confetti\confetti_01.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>300</ImportHeight>
+                          <ImportWidth>300</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="105" Width="300" Height="300" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Confetti\confetti_02.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>300</ImportHeight>
+                          <ImportWidth>300</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="106" Width="300" Height="300" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Confetti\confetti_03.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>300</ImportHeight>
+                          <ImportWidth>300</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="107" Width="300" Height="300" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Confetti\confetti_04.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>300</ImportHeight>
+                          <ImportWidth>300</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="108" Width="300" Height="300" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Confetti\confetti_05.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>300</ImportHeight>
+                          <ImportWidth>300</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="109" Width="300" Height="300" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Confetti\confetti_06.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>300</ImportHeight>
+                          <ImportWidth>300</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="110" Width="300" Height="300" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Confetti\confetti_07.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>300</ImportHeight>
+                          <ImportWidth>300</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
                 </SubFolders>
                 <Sprites>
                   <Sprite Slot="8" Width="100" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -7466,6 +7576,25 @@ return
                   </Loop>
                 </Loops>
               </View>
+              <View>
+                <ID>13</ID>
+                <Name>HumanNoEyes</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>17</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
             </Views>
           </ViewFolder>
           <ViewFolder Name="Objects">
@@ -7883,6 +8012,67 @@ return
                     <Flipped>False</Flipped>
                     <ID>6</ID>
                     <Image>2036</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>14</ID>
+            <Name>Confetti</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>104</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>105</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>106</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>107</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>4</ID>
+                    <Image>108</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>5</ID>
+                    <Image>109</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>6</ID>
+                    <Image>110</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
