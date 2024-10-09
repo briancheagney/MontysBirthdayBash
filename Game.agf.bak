@@ -654,19 +654,15 @@
         <UnloadedRooms>
           <UnloadedRoom>
             <Description IsNull="True" />
-            <Number>1</Number>
-          </UnloadedRoom>
-          <UnloadedRoom>
-            <Description IsNull="True" />
-            <Number>2</Number>
-          </UnloadedRoom>
-          <UnloadedRoom>
-            <Description IsNull="True" />
             <Number>3</Number>
           </UnloadedRoom>
           <UnloadedRoom>
             <Description IsNull="True" />
             <Number>4</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>5</Number>
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
@@ -719,7 +715,7 @@
                 <Font>0</Font>
                 <Height>46</Height>
                 <ID>1</ID>
-                <Left>778</Left>
+                <Left>804</Left>
                 <Locked>False</Locked>
                 <Name>lblScore</Name>
                 <Text xml:space="preserve">Score: @SCORE@</Text>
@@ -737,7 +733,7 @@
                 <Font>0</Font>
                 <Height>46</Height>
                 <ID>2</ID>
-                <Left>498</Left>
+                <Left>500</Left>
                 <Locked>False</Locked>
                 <Name>lblOverHotspot</Name>
                 <Text>@OVERHOTSPOT@</Text>
@@ -848,7 +844,7 @@
                 <Height>97</Height>
                 <ID>2</ID>
                 <Image>2108</Image>
-                <Left>260</Left>
+                <Left>182</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2109</MouseoverImage>
                 <Name>btnIconInteract</Name>
@@ -873,7 +869,7 @@
                 <Height>97</Height>
                 <ID>3</ID>
                 <Image>2112</Image>
-                <Left>388</Left>
+                <Left>223</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2113</MouseoverImage>
                 <Name>btnIconTalk</Name>
@@ -898,7 +894,7 @@
                 <Height>97</Height>
                 <ID>4</ID>
                 <Image>2120</Image>
-                <Left>516</Left>
+                <Left>263</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2121</MouseoverImage>
                 <Name>btnIconInv</Name>
@@ -923,7 +919,7 @@
                 <Height>97</Height>
                 <ID>5</ID>
                 <Image>2124</Image>
-                <Left>644</Left>
+                <Left>302</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2124</MouseoverImage>
                 <Name>btnIconCurInv</Name>
@@ -936,7 +932,7 @@
                 <Top>3</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>128</Width>
+                <Width>40</Width>
                 <ZOrder>5</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -2726,7 +2722,7 @@
             <SpeechView>0</SpeechView>
             <StartX>127</StartX>
             <StartY>142</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>-1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2797,12 +2793,12 @@
             <IdleDelay>20</IdleDelay>
             <IdleView>3</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>10</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>3</NormalView>
             <Properties />
-            <RealName xml:space="preserve">New character</RealName>
+            <RealName xml:space="preserve">Helium Dealer</RealName>
             <ScriptName>cHuman01</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
@@ -2847,6 +2843,9 @@ Human01: That'll be one 'tousand bazingos.
 Monty: That's more than we planned!
 Monty: I don't have that much.
 Human01: Supplize and demanz, my ugly friend.
+Monty: You're not nice
+Monty: But come in...
+Monty: We'll figure something out.
 run-script 1
 return
 ]]></Script>
@@ -3344,6 +3343,11 @@ return
           <DefaultValue>0</DefaultValue>
           <Name>Puzzle01Stage</Name>
           <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>DoorUp</Name>
+          <Type>bool</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -4927,6 +4931,131 @@ return
                           </Sprite>
                         </Sprites>
                       </SpriteFolder>
+                      <SpriteFolder Name="Walk">
+                        <SubFolders />
+                        <Sprites>
+                          <Sprite Slot="96" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\Walk\human01_Walk01.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="97" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\Walk\human01_Walk02.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="98" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\Walk\human01_Walk03.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="99" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\Walk\human01_Walk04.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="100" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\Walk\human01_Walk05.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="101" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\Walk\human01_Walk06.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="102" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\Walk\human01_Walk07.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="103" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\Walk\human01_Walk08.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                        </Sprites>
+                      </SpriteFolder>
                     </SubFolders>
                     <Sprites>
                       <Sprite Slot="12" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -5948,6 +6077,21 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="95" Width="202" Height="330" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Door_Gate.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>330</ImportHeight>
+                      <ImportWidth>202</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
@@ -6761,7 +6905,7 @@ return
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>0</Image>
+                        <Image>12</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -6774,7 +6918,7 @@ return
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>0</Image>
+                        <Image>12</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -6782,7 +6926,15 @@ return
                   <Loop>
                     <ID>3</ID>
                     <RunNextLoop>False</RunNextLoop>
-                    <Frames />
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>12</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
                   </Loop>
                 </Loops>
               </View>
@@ -7054,6 +7206,260 @@ return
                         <Flipped>False</Flipped>
                         <ID>3</ID>
                         <Image>93</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>12</ID>
+                <Name>Human01Walk</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>96</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>97</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>98</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>99</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>100</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>101</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>102</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>103</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>96</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>97</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>98</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>99</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>100</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>101</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>102</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>103</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>0</ID>
+                        <Image>96</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>1</ID>
+                        <Image>97</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>2</ID>
+                        <Image>98</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>3</ID>
+                        <Image>99</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>4</ID>
+                        <Image>100</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>5</ID>
+                        <Image>101</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>6</ID>
+                        <Image>102</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>7</ID>
+                        <Image>103</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>0</ID>
+                        <Image>96</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>1</ID>
+                        <Image>97</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>2</ID>
+                        <Image>98</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>3</ID>
+                        <Image>99</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>4</ID>
+                        <Image>100</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>5</ID>
+                        <Image>101</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>6</ID>
+                        <Image>102</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>7</ID>
+                        <Image>103</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
