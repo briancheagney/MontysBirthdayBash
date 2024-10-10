@@ -2762,8 +2762,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>512</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>308</StartX>
-            <StartY>590</StartY>
+            <StartX>311</StartX>
+            <StartY>656</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>

@@ -5,7 +5,7 @@
     <SelectedItem BreadcrumbPath="Room/Objects/0006" />
     <Layers>
       <Edges>
-        <Visible>True</Visible>
+        <Visible>False</Visible>
         <Locked>False</Locked>
         <Items>
           <Item ID="Bottom">
@@ -383,7 +383,7 @@
         </Items>
       </WalkableAreas>
       <WalkBehinds>
-        <Visible>True</Visible>
+        <Visible>False</Visible>
         <Locked>False</Locked>
         <Items>
           <Item ID="0000">
