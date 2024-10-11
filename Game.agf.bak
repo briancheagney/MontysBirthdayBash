@@ -677,16 +677,37 @@
                 <NormalGUI>
                   <BackgroundColor>0</BackgroundColor>
                   <BackgroundImage>143</BackgroundImage>
-                  <BorderColor>2</BorderColor>
+                  <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
                   <Height>575</Height>
                   <ID>9</ID>
-                  <Left>0</Left>
+                  <Left>350</Left>
                   <Name>gChestOpen01</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
-                  <Top>0</Top>
+                  <Top>126</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>600</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>144</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>575</Height>
+                  <ID>10</ID>
+                  <Left>350</Left>
+                  <Name>gChestOpen02</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>126</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
                   <Width>600</Width>
@@ -698,16 +719,79 @@
                 <NormalGUI>
                   <BackgroundColor>0</BackgroundColor>
                   <BackgroundImage>145</BackgroundImage>
-                  <BorderColor>2</BorderColor>
+                  <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
                   <Height>575</Height>
-                  <ID>10</ID>
-                  <Left>0</Left>
+                  <ID>11</ID>
+                  <Left>350</Left>
                   <Name>gChestOpen03</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
-                  <Top>0</Top>
+                  <Top>126</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>600</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>146</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>575</Height>
+                  <ID>12</ID>
+                  <Left>350</Left>
+                  <Name>gChestOpen04</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>126</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>600</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>147</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>575</Height>
+                  <ID>13</ID>
+                  <Left>350</Left>
+                  <Name>gChestOpen05</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>126</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>600</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>148</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>575</Height>
+                  <ID>14</ID>
+                  <Left>350</Left>
+                  <Name>gChestOpen06</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>126</Top>
                   <Transparency>0</Transparency>
                   <Visible>False</Visible>
                   <Width>600</Width>
@@ -968,7 +1052,7 @@
               <Clickable>True</Clickable>
               <Height>575</Height>
               <ID>2</ID>
-              <Left>200</Left>
+              <Left>350</Left>
               <Name>gInventory</Name>
               <OnClick>gInventory_OnClick</OnClick>
               <PopupStyle>PopupModal</PopupStyle>
@@ -3287,6 +3371,11 @@ return
           <Name>HeadRoll</Name>
           <Type>bool</Type>
         </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>2</DefaultValue>
+          <Name>WaitGUI</Name>
+          <Type>int</Type>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -4212,6 +4301,36 @@ return
                       <Sprite Slot="146" Width="591" Height="559" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
                           <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\ChestOpen\ChestOpen04.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>559</ImportHeight>
+                          <ImportWidth>591</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="147" Width="591" Height="559" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\ChestOpen\ChestOpen05.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>559</ImportHeight>
+                          <ImportWidth>591</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="148" Width="591" Height="559" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\ChestOpen\ChestOpen06.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>559</ImportHeight>
