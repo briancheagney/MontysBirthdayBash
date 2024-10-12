@@ -805,9 +805,9 @@
         <GUIs>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>32089</BackgroundColor>
+              <BackgroundColor>34800</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <BorderColor>32089</BorderColor>
+              <BorderColor>512</BorderColor>
               <Clickable>True</Clickable>
               <Height>25</Height>
               <ID>0</ID>
@@ -832,9 +832,9 @@
                 <Left>8</Left>
                 <Locked>False</Locked>
                 <Name>lblGameName</Name>
-                <Text>@GAMENAME@</Text>
+                <Text xml:space="preserve">MONTY'S BIRTHDAY BASH</Text>
                 <TextAlignment>Left</TextAlignment>
-                <TextColor>19248</TextColor>
+                <TextColor>512</TextColor>
                 <Top>3</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
@@ -847,53 +847,17 @@
                 <Font>0</Font>
                 <Height>46</Height>
                 <ID>1</ID>
-                <Left>804</Left>
-                <Locked>False</Locked>
-                <Name>lblScore</Name>
-                <Text xml:space="preserve">Score: @SCORE@</Text>
-                <TextAlignment>Left</TextAlignment>
-                <TextColor>19248</TextColor>
-                <Top>3</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>280</Width>
-                <ZOrder>1</ZOrder>
-              </GUILabel>
-              <GUILabel>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>46</Height>
-                <ID>2</ID>
                 <Left>500</Left>
                 <Locked>False</Locked>
                 <Name>lblOverHotspot</Name>
                 <Text>@OVERHOTSPOT@</Text>
                 <TextAlignment>Center</TextAlignment>
-                <TextColor>19248</TextColor>
+                <TextColor>512</TextColor>
                 <Top>3</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>300</Width>
-                <ZOrder>2</ZOrder>
-              </GUILabel>
-              <GUILabel>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>24</Height>
-                <ID>3</ID>
-                <Left>1085</Left>
-                <Locked>False</Locked>
-                <Name>LabelPuzzleStage</Name>
-                <Text xml:space="preserve">New Label</Text>
-                <TextAlignment>Left</TextAlignment>
-                <TextColor>19017</TextColor>
-                <Top>3</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>150</Width>
-                <ZOrder>3</ZOrder>
+                <ZOrder>1</ZOrder>
               </GUILabel>
             </Controls>
           </GUIMain>
@@ -1112,7 +1076,7 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>29</Height>
+                <Height>27</Height>
                 <ID>2</ID>
                 <Image>2104</Image>
                 <Left>85</Left>
@@ -1128,7 +1092,7 @@
                 <Top>516</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>30</Width>
                 <ZOrder>2</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -3448,7 +3412,7 @@ return
                   </Sprite>
                   <Sprite Slot="2104" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_look_normal.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Verbs\eye_01.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -3463,7 +3427,7 @@ return
                   </Sprite>
                   <Sprite Slot="2105" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_look_over.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Verbs\eye_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -3478,7 +3442,7 @@ return
                   </Sprite>
                   <Sprite Slot="2106" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_look_pressed.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Verbs\eye_03.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -3491,13 +3455,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2107" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2107" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_look_icon.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Verbs\eye_04.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
-                      <ImportWidth>32</ImportWidth>
+                      <ImportWidth>30</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
