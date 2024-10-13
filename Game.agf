@@ -4807,6 +4807,71 @@ return
                           </Sprite>
                         </Sprites>
                       </SpriteFolder>
+                      <SpriteFolder Name="Pickup">
+                        <SubFolders />
+                        <Sprites>
+                          <Sprite Slot="150" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Monty\Pickup\Pickup01.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="151" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Monty\Pickup\Pickup02.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="152" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Monty\Pickup\Pickup03.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="153" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Monty\Pickup\Pickup04.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                        </Sprites>
+                      </SpriteFolder>
                     </SubFolders>
                     <Sprites>
                       <Sprite Slot="2" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
