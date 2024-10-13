@@ -1,1 +1,2 @@
 Game : (room:3) Dialog: all options have been turned off, stopping dialog.
+Game : (room:3)[R 93] WARNING: Character cHuman01 speech view 11 does not have necessary loop 1; switching to loop 0.
