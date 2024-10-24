@@ -2698,6 +2698,27 @@
               </GUILabel>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>165</BackgroundImage>
+              <BorderColor>0</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>200</Height>
+              <ID>18</ID>
+              <Left>0</Left>
+              <Name>gCraftAnimGUI</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>200</Width>
+              <ZOrder>5</ZOrder>
+            </NormalGUI>
+            <Controls />
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -4037,6 +4058,11 @@ return
         <GlobalVariable>
           <DefaultValue>0</DefaultValue>
           <Name>PuzzleNum</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>7</DefaultValue>
+          <Name>WaitGUIAnim</Name>
           <Type>int</Type>
         </GlobalVariable>
       </Variables>
@@ -7764,6 +7790,196 @@ return
                     </Source>
                   </Sprite>
                 </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="AnimGUIs">
+                <SubFolders>
+                  <SpriteFolder Name="BalloonHE">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="165" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\AnimGUIs\BalloonHE\HEBalloon_01.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>200</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="166" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\AnimGUIs\BalloonHE\HEBalloon_02.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>200</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="167" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\AnimGUIs\BalloonHE\HEBalloon_03.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>200</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="168" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\AnimGUIs\BalloonHE\HEBalloon_04.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>200</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="169" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\AnimGUIs\BalloonHE\HEBalloon_05.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>200</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="170" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\AnimGUIs\BalloonHE\HEBalloon_06.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>200</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="171" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\AnimGUIs\BalloonHE\HEBalloon_07.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>200</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="172" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\AnimGUIs\BalloonHE\HEBalloon_08.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>200</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="173" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\AnimGUIs\BalloonHE\HEBalloon_09.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>200</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="174" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\AnimGUIs\BalloonHE\HEBalloon_10.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>200</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="175" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\AnimGUIs\BalloonHE\HEBalloon_11.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>200</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="176" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\AnimGUIs\BalloonHE\HEBalloon_12.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>200</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
+                <Sprites />
               </SpriteFolder>
             </SubFolders>
             <Sprites>
