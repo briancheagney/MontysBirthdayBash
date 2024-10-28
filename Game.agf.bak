@@ -3356,7 +3356,7 @@
             <ScriptName>cMonty</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>512</SpeechColor>
+            <SpeechColor>34800</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>273</StartX>
             <StartY>614</StartY>
@@ -3398,7 +3398,7 @@
             <ScriptName>cHuman01</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>33792</SpeechColor>
+            <SpeechColor>65520</SpeechColor>
             <SpeechView>11</SpeechView>
             <StartX>1123</StartX>
             <StartY>537</StartY>
@@ -3756,7 +3756,7 @@ return
         <OutlineFont>2</OutlineFont>
         <OutlineStyle>UseOutlineFont</OutlineStyle>
         <PointSize>0</PointSize>
-        <SizeMultiplier>2</SizeMultiplier>
+        <SizeMultiplier>3</SizeMultiplier>
         <SourceFilename />
         <TTFMetricsFixup>None</TTFMetricsFixup>
         <VerticalOffset>0</VerticalOffset>
@@ -3770,7 +3770,7 @@ return
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
         <PointSize>0</PointSize>
-        <SizeMultiplier>2</SizeMultiplier>
+        <SizeMultiplier>3</SizeMultiplier>
         <SourceFilename />
         <TTFMetricsFixup>None</TTFMetricsFixup>
         <VerticalOffset>0</VerticalOffset>
