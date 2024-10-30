@@ -9040,6 +9040,21 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="255" Width="774" Height="133" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Workbench.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>67</OffsetY>
+                      <ImportHeight>133</ImportHeight>
+                      <ImportWidth>774</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="RoomStuff">
