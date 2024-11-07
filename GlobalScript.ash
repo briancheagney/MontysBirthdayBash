@@ -4,3 +4,4 @@
 // scripts.
 import function WalkToObjectAndPickup(Object *obj);
 import function GoToObjectAndPickup(Object *pickup);
+import function SayTypewriterStyle(Character* sayingcharacter, String message, int delay);
