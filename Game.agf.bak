@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>7</AudioIndexer>
+      <AudioIndexer>8</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets xml:space="preserve">Windows, Web</BuildTargets>
@@ -23,8 +23,8 @@
       <CustomResolution>1280,720</CustomResolution>
       <DebugMode>True</DebugMode>
       <DefaultRoomMaskResolution>1</DefaultRoomMaskResolution>
-      <Description />
-      <DeveloperName />
+      <Description xml:space="preserve">A Cozy Horror Point and Click</Description>
+      <DeveloperName xml:space="preserve">Brian Heagney</DeveloperName>
       <DeveloperURL />
       <DialogOptionsBackwards>False</DialogOptionsBackwards>
       <DialogOptionsBullet>0</DialogOptionsBullet>
@@ -38,8 +38,8 @@
       <EnforceObjectBasedScript>True</EnforceObjectBasedScript>
       <GUIAlphaStyle>MultiplyTranslucenceSrcBlend</GUIAlphaStyle>
       <GUIDAsString>{a54948d4-9d32-455c-858f-2b98e846262d}</GUIDAsString>
-      <GameFileName>HeagneyTutorial</GameFileName>
-      <GameName xml:space="preserve">Heagney Tutorial</GameName>
+      <GameFileName>MontysBirthdayBash</GameFileName>
+      <GameName xml:space="preserve">Monty's Birthday Bash</GameName>
       <GameTextEncoding>utf-8</GameTextEncoding>
       <Genre>Adventure</Genre>
       <GlobalSpeechAnimationDelay>5</GlobalSpeechAnimationDelay>
@@ -55,14 +55,14 @@
       <MouseWheelEnabled>True</MouseWheelEnabled>
       <NumberDialogOptions>None</NumberDialogOptions>
       <OptimizeSpriteStorage>True</OptimizeSpriteStorage>
-      <PixelPerfect>True</PixelPerfect>
+      <PixelPerfect>False</PixelPerfect>
       <PlaySoundOnScore>0</PlaySoundOnScore>
       <ReleaseDate>2022-03-01</ReleaseDate>
       <RenderAtScreenResolution>UserDefined</RenderAtScreenResolution>
       <RoomTransition>FadeOutAndIn</RoomTransition>
       <RunGameLoopsWhileDialogOptionsDisplayed>False</RunGameLoopsWhileDialogOptionsDisplayed>
       <SaveGameFileExtension />
-      <SaveGameFolderName xml:space="preserve">Heagney Tutorial</SaveGameFolderName>
+      <SaveGameFolderName xml:space="preserve">Monty's Birthday Bash</SaveGameFolderName>
       <SaveScreenshots>False</SaveScreenshots>
       <ScaleCharacterSpriteOffsets>True</ScaleCharacterSpriteOffsets>
       <ScaleMovementSpeedWithMaskResolution>False</ScaleMovementSpeedWithMaskResolution>
@@ -86,7 +86,7 @@
       <UseOldKeyboardHandling>False</UseOldKeyboardHandling>
       <Version>1.0.0.0</Version>
       <WalkInLookMode>False</WalkInLookMode>
-      <WhenInterfaceDisabled>GreyOut</WhenInterfaceDisabled>
+      <WhenInterfaceDisabled>TurnOff</WhenInterfaceDisabled>
     </Settings>
     <RuntimeSetup>
       <AAScaledSprites>False</AAScaledSprites>
@@ -104,7 +104,7 @@
       <RenderAtScreenResolution>False</RenderAtScreenResolution>
       <Rotation>Unlocked</Rotation>
       <ShowFPS>False</ShowFPS>
-      <SoundCacheSize>32</SoundCacheSize>
+      <SoundCacheSize>128</SoundCacheSize>
       <SpriteCacheSize>128</SpriteCacheSize>
       <TextureCacheSize>128</TextureCacheSize>
       <TitleText xml:space="preserve">Monty's Birthday Bash</TitleText>
@@ -13698,9 +13698,9 @@ See KeyboardMovement.txt for details.
                 <ID>0</ID>
                 <Index>1</Index>
                 <ScriptName>aScoop_mixdown</ScriptName>
-                <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\scoop_mixdown.wav</SourceFileName>
-                <Type>3</Type>
-                <FileLastModifiedDate>2024-09-10 00:49:28Z</FileLastModifiedDate>
+                <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\Finals\Scoop.wav</SourceFileName>
+                <Type>1</Type>
+                <FileLastModifiedDate>2024-11-09 14:49:51Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InGameEXE</BundlingType>
@@ -13753,6 +13753,19 @@ See KeyboardMovement.txt for details.
                 <SourceFileName>C:\Users\bheagney\Downloads\ElectricalChord\ElectricalChord\electriczap2.wav</SourceFileName>
                 <Type>3</Type>
                 <FileLastModifiedDate>2024-09-11 15:00:47Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>6</ID>
+                <Index>8</Index>
+                <ScriptName>aOpenDoor</ScriptName>
+                <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\Finals\OpenDoor.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-11-09 14:41:46Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
