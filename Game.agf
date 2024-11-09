@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>8</AudioIndexer>
+      <AudioIndexer>12</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets xml:space="preserve">Windows, Web</BuildTargets>
@@ -55,7 +55,7 @@
       <MouseWheelEnabled>True</MouseWheelEnabled>
       <NumberDialogOptions>None</NumberDialogOptions>
       <OptimizeSpriteStorage>True</OptimizeSpriteStorage>
-      <PixelPerfect>False</PixelPerfect>
+      <PixelPerfect>True</PixelPerfect>
       <PlaySoundOnScore>0</PlaySoundOnScore>
       <ReleaseDate>2022-03-01</ReleaseDate>
       <RenderAtScreenResolution>UserDefined</RenderAtScreenResolution>
@@ -86,7 +86,7 @@
       <UseOldKeyboardHandling>False</UseOldKeyboardHandling>
       <Version>1.0.0.0</Version>
       <WalkInLookMode>False</WalkInLookMode>
-      <WhenInterfaceDisabled>TurnOff</WhenInterfaceDisabled>
+      <WhenInterfaceDisabled>Unchanged</WhenInterfaceDisabled>
     </Settings>
     <RuntimeSetup>
       <AAScaledSprites>False</AAScaledSprites>
@@ -13766,6 +13766,45 @@ See KeyboardMovement.txt for details.
                 <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\Finals\OpenDoor.wav</SourceFileName>
                 <Type>3</Type>
                 <FileLastModifiedDate>2024-11-09 14:41:46Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>7</ID>
+                <Index>9</Index>
+                <ScriptName>aPickup</ScriptName>
+                <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\Finals\pickup.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-11-09 15:16:14Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>25</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>8</ID>
+                <Index>10</Index>
+                <ScriptName>aWalk</ScriptName>
+                <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\Finals\walk.wav</SourceFileName>
+                <Type>1</Type>
+                <FileLastModifiedDate>2024-11-09 15:18:50Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>9</ID>
+                <Index>12</Index>
+                <ScriptName>aReward</ScriptName>
+                <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\reward.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-11-09 16:22:18Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
