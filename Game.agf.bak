@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>12</AudioIndexer>
+      <AudioIndexer>14</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets xml:space="preserve">Windows, Web</BuildTargets>
@@ -13675,7 +13675,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>aSpookybackground01</ScriptName>
                 <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\backgrounds\Exports\spookybackground01.wav</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-10-04 14:38:44Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-10-05 13:01:59Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -13725,7 +13725,7 @@ See KeyboardMovement.txt for details.
                 <Index>3</Index>
                 <ScriptName>aSquirt</ScriptName>
                 <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\oil-squirts.wav</SourceFileName>
-                <Type>3</Type>
+                <Type>1</Type>
                 <FileLastModifiedDate>2024-09-10 23:16:47Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
@@ -13797,7 +13797,7 @@ See KeyboardMovement.txt for details.
                 <BundlingType>InGameEXE</BundlingType>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <DefaultVolume>-1</DefaultVolume>
+                <DefaultVolume>50</DefaultVolume>
                 <FileType>WAV</FileType>
                 <ID>9</ID>
                 <Index>12</Index>
@@ -13805,6 +13805,32 @@ See KeyboardMovement.txt for details.
                 <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\reward.wav</SourceFileName>
                 <Type>3</Type>
                 <FileLastModifiedDate>2024-11-09 16:22:18Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>10</ID>
+                <Index>13</Index>
+                <ScriptName>aSaw</ScriptName>
+                <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\Finals\saw.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-11-09 18:35:38Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>11</ID>
+                <Index>14</Index>
+                <ScriptName>aFire</ScriptName>
+                <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\Finals\fire.mp3</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-11-09 18:42:54Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>

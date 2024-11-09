@@ -1,1 +1,1 @@
-var gamefiles = ['audio.vox', 'HeagneyTutorial.ags', 'acsetup.cfg'];
+var gamefiles = ['audio.vox', 'MontysBirthdayBash.ags', 'acsetup.cfg'];
