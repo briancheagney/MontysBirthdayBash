@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>20</AudioIndexer>
+      <AudioIndexer>22</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets xml:space="preserve">Windows, Web</BuildTargets>
@@ -2998,7 +2998,7 @@
             <ID>15</ID>
             <Image>68</Image>
             <Name>iLegs</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0">iLegs_Look</Event>
@@ -3411,9 +3411,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>34800</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>236</StartX>
-            <StartY>1388</StartY>
-            <StartingRoom>4</StartingRoom>
+            <StartX>373</StartX>
+            <StartY>650</StartY>
+            <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -14161,6 +14161,32 @@ See KeyboardMovement.txt for details.
                 <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\Finals\Explode_Long.wav</SourceFileName>
                 <Type>3</Type>
                 <FileLastModifiedDate>2024-11-09 20:56:18Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>18</ID>
+                <Index>21</Index>
+                <ScriptName>aMachine</ScriptName>
+                <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\Finals\machine.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-11-11 02:20:49Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>19</ID>
+                <Index>22</Index>
+                <ScriptName>aSpew1</ScriptName>
+                <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\Finals\spew.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-11-11 02:28:47Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
