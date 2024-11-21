@@ -6598,6 +6598,21 @@ return
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
+                      <Sprite Slot="335" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Monty\BurnTorch\MontyBurnTorch.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>186</ImportHeight>
+                          <ImportWidth>150</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
                     </Sprites>
                   </SpriteFolder>
                   <SpriteFolder Name="Human">
@@ -11941,6 +11956,25 @@ return
                         <Flipped>False</Flipped>
                         <ID>3</ID>
                         <Image>327</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>42</ID>
+                <Name>MontyBurnTorch</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>335</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
