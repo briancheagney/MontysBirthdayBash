@@ -826,7 +826,7 @@
             <GUIs>
               <GUIMain>
                 <NormalGUI>
-                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundColor>0</BackgroundColor>
                   <BackgroundImage>2167</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
@@ -1034,7 +1034,7 @@
               </GUIMain>
               <GUIMain>
                 <NormalGUI>
-                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundColor>0</BackgroundColor>
                   <BackgroundImage>2167</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
@@ -1249,9 +1249,9 @@
               </GUIMain>
               <GUIMain>
                 <NormalGUI>
-                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundColor>0</BackgroundColor>
                   <BackgroundImage>2167</BackgroundImage>
-                  <BorderColor>2</BorderColor>
+                  <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
                   <Height>561</Height>
                   <ID>17</ID>
@@ -1273,10 +1273,10 @@
                     <ClipImage>False</ClipImage>
                     <Enabled>True</Enabled>
                     <Font>0</Font>
-                    <Height>199</Height>
+                    <Height>197</Height>
                     <ID>0</ID>
                     <Image>72</Image>
-                    <Left>464</Left>
+                    <Left>665</Left>
                     <Locked>False</Locked>
                     <MouseoverImage>0</MouseoverImage>
                     <Name>Button13</Name>
@@ -1286,11 +1286,11 @@
                     <Text xml:space="preserve">New Button</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>0</TextColor>
-                    <Top>140</Top>
+                    <Top>127</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
-                    <Width>162</Width>
-                    <ZOrder>0</ZOrder>
+                    <Width>160</Width>
+                    <ZOrder>1</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1301,7 +1301,7 @@
                     <Height>200</Height>
                     <ID>1</ID>
                     <Image>161</Image>
-                    <Left>399</Left>
+                    <Left>532</Left>
                     <Locked>False</Locked>
                     <MouseoverImage>0</MouseoverImage>
                     <Name>Button14</Name>
@@ -1311,11 +1311,11 @@
                     <Text xml:space="preserve">New Button</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>0</TextColor>
-                    <Top>180</Top>
+                    <Top>170</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>163</Width>
-                    <ZOrder>1</ZOrder>
+                    <ZOrder>2</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1340,7 +1340,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>150</Width>
-                    <ZOrder>2</ZOrder>
+                    <ZOrder>3</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1351,7 +1351,7 @@
                     <Height>64</Height>
                     <ID>3</ID>
                     <Image>5</Image>
-                    <Left>448</Left>
+                    <Left>552</Left>
                     <Locked>False</Locked>
                     <MouseoverImage>0</MouseoverImage>
                     <Name>Button16</Name>
@@ -1361,11 +1361,11 @@
                     <Text xml:space="preserve">New Button</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>0</TextColor>
-                    <Top>214</Top>
+                    <Top>221</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>64</Width>
-                    <ZOrder>3</ZOrder>
+                    <ZOrder>4</ZOrder>
                   </GUIButton>
                   <GUILabel>
                     <Clickable>True</Clickable>
@@ -1383,7 +1383,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>510</Width>
-                    <ZOrder>4</ZOrder>
+                    <ZOrder>5</ZOrder>
                   </GUILabel>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1408,7 +1408,57 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>268</Width>
-                    <ZOrder>5</ZOrder>
+                    <ZOrder>6</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>280</Height>
+                    <ID>6</ID>
+                    <Image>332</Image>
+                    <Left>303</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>Button22</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>0</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>102</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>296</Width>
+                    <ZOrder>0</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>57</Height>
+                    <ID>7</ID>
+                    <Image>333</Image>
+                    <Left>350</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>Button23</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>0</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>255</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>51</Width>
+                    <ZOrder>7</ZOrder>
                   </GUIButton>
                 </Controls>
               </GUIMain>
@@ -10505,6 +10555,36 @@ return
                       <OffsetY>0</OffsetY>
                       <ImportHeight>262</ImportHeight>
                       <ImportWidth>568</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="332" Width="296" Height="280" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\chestUIintro.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>280</ImportHeight>
+                      <ImportWidth>296</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="333" Width="50" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\balloonshelp.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>50</ImportHeight>
+                      <ImportWidth>50</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>

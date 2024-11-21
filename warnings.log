@@ -1,1 +1,2 @@
-Game : (room:5)[R 485] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:3)[G 707] WARNING: Character cMonty speech view 40 does not have necessary loop 2; switching to loop 0.
+Game : (room:3)[G 707] WARNING: Character cMonty speech view 40 does not have necessary loop 2; switching to loop 0.
