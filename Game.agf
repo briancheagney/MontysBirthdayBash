@@ -1550,10 +1550,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>97</Height>
+                <Height>42</Height>
                 <ID>0</ID>
                 <Image>2120</Image>
-                <Left>212</Left>
+                <Left>266</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2121</MouseoverImage>
                 <Name>btnIconInv</Name>
@@ -1563,7 +1563,7 @@
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>3</Top>
+                <Top>4</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>45</Width>
@@ -1668,6 +1668,31 @@
                 <Visible>True</Visible>
                 <Width>45</Width>
                 <ZOrder>4</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>48</Height>
+                <ID>5</ID>
+                <Image>91</Image>
+                <Left>209</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button24</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Button24_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>2</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>53</Width>
+                <ZOrder>5</ZOrder>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -4454,6 +4479,11 @@ return
           <Name>ODescription</Name>
           <Type>String</Type>
         </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue />
+          <Name>musicChannel</Name>
+          <Type>AudioChannel*</Type>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -5732,7 +5762,7 @@ return
                   </Sprite>
                   <Sprite Slot="318" Width="380" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\bheagney\Downloads\ButtonImageMonty.png</FileName>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\UI\StartScreenHover.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>80</ImportHeight>
@@ -5975,13 +6005,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="90" Width="100" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="90" Width="45" Height="45" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\musicoff.png</FileName>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\PauseMusic.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>100</ImportHeight>
-                      <ImportWidth>100</ImportWidth>
+                      <ImportHeight>45</ImportHeight>
+                      <ImportWidth>45</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5990,13 +6020,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="91" Width="100" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="91" Width="45" Height="45" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\musicon.png</FileName>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\playmusic.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>100</ImportHeight>
-                      <ImportWidth>100</ImportWidth>
+                      <ImportHeight>45</ImportHeight>
+                      <ImportWidth>45</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -6061,7 +6091,7 @@ return
                           </Sprite>
                           <Sprite Slot="26" Width="225" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
-                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Monty\aMonty_Saw02.png</FileName>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Monty\MontySawSpoon\Montysaw01.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>186</ImportHeight>
@@ -6076,7 +6106,22 @@ return
                           </Sprite>
                           <Sprite Slot="27" Width="225" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
-                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Monty\aMonty_Saw03.png</FileName>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Monty\MontySawSpoon\Montysaw02.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>225</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="336" Width="225" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Monty\MontySawSpoon\MontySaw99.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>186</ImportHeight>
@@ -7080,13 +7125,13 @@ return
                       <SpriteFolder Name="HeadRoll">
                         <SubFolders />
                         <Sprites>
-                          <Sprite Slot="128" Width="300" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                          <Sprite Slot="128" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
-                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\HeadRoll\HeadRoll01.png</FileName>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\NewHumanHeadRoll\128.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>186</ImportHeight>
-                              <ImportWidth>300</ImportWidth>
+                              <ImportWidth>150</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -7095,13 +7140,13 @@ return
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="129" Width="300" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                          <Sprite Slot="129" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
-                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\HeadRoll\HeadRoll02.png</FileName>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\NewHumanHeadRoll\129.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>186</ImportHeight>
-                              <ImportWidth>300</ImportWidth>
+                              <ImportWidth>150</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -7110,13 +7155,13 @@ return
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="130" Width="300" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                          <Sprite Slot="130" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
-                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\HeadRoll\HeadRoll03.png</FileName>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\NewHumanHeadRoll\130.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>186</ImportHeight>
-                              <ImportWidth>300</ImportWidth>
+                              <ImportWidth>150</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -7125,13 +7170,13 @@ return
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="131" Width="300" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                          <Sprite Slot="131" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
-                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\HeadRoll\HeadRoll04.png</FileName>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\NewHumanHeadRoll\131.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>186</ImportHeight>
-                              <ImportWidth>300</ImportWidth>
+                              <ImportWidth>150</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -7140,13 +7185,13 @@ return
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="132" Width="300" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                          <Sprite Slot="132" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
-                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\HeadRoll\HeadRoll05.png</FileName>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\NewHumanHeadRoll\132.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>186</ImportHeight>
-                              <ImportWidth>300</ImportWidth>
+                              <ImportWidth>150</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -7155,13 +7200,13 @@ return
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="133" Width="300" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                          <Sprite Slot="133" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
-                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\HeadRoll\HeadRoll06.png</FileName>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\NewHumanHeadRoll\133.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>186</ImportHeight>
-                              <ImportWidth>300</ImportWidth>
+                              <ImportWidth>150</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -7170,13 +7215,13 @@ return
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="134" Width="300" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                          <Sprite Slot="134" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
-                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\HeadRoll\HeadRoll07.png</FileName>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\NewHumanHeadRoll\134.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>186</ImportHeight>
-                              <ImportWidth>300</ImportWidth>
+                              <ImportWidth>150</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -7185,13 +7230,13 @@ return
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="135" Width="300" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                          <Sprite Slot="135" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
-                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Human\HeadRoll\HeadRoll08.png</FileName>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\NewHumanHeadRoll\135.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>186</ImportHeight>
-                              <ImportWidth>300</ImportWidth>
+                              <ImportWidth>150</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -11553,7 +11598,7 @@ return
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>1</ID>
-                        <Image>15</Image>
+                        <Image>336</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
@@ -11602,7 +11647,7 @@ return
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>8</ID>
-                        <Image>15</Image>
+                        <Image>336</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
