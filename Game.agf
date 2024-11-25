@@ -1694,6 +1694,24 @@
                 <Width>53</Width>
                 <ZOrder>5</ZOrder>
               </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>6</Font>
+                <Height>45</Height>
+                <ID>6</ID>
+                <Left>464</Left>
+                <Locked>False</Locked>
+                <Name>Label8</Name>
+                <Text>@OVERHOTSPOT@</Text>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>512</TextColor>
+                <Top>4</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>412</Width>
+                <ZOrder>6</ZOrder>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -3737,8 +3755,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>34800</SpeechColor>
             <SpeechView>40</SpeechView>
-            <StartX>1017</StartX>
-            <StartY>1410</StartY>
+            <StartX>593</StartX>
+            <StartY>630</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -4198,6 +4216,34 @@ return
         <PointSize>10</PointSize>
         <SizeMultiplier>5</SizeMultiplier>
         <SourceFilename>C:\Users\bheagney\Downloads\alte_haas_grotesk\AlteHaasGroteskRegular.ttf</SourceFilename>
+        <TTFMetricsFixup>None</TTFMetricsFixup>
+        <VerticalOffset>0</VerticalOffset>
+      </Font>
+      <Font>
+        <AutoOutlineStyle>Squared</AutoOutlineStyle>
+        <AutoOutlineThickness>1</AutoOutlineThickness>
+        <ID>6</ID>
+        <LineSpacing>0</LineSpacing>
+        <Name>MonsterGame</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>None</OutlineStyle>
+        <PointSize>10</PointSize>
+        <SizeMultiplier>4</SizeMultiplier>
+        <SourceFilename xml:space="preserve">D:\DDocuments\FA2024\IGS\MonsterBirthday\Fonts\monster_game\Monster Game update.ttf</SourceFilename>
+        <TTFMetricsFixup>None</TTFMetricsFixup>
+        <VerticalOffset>0</VerticalOffset>
+      </Font>
+      <Font>
+        <AutoOutlineStyle>Squared</AutoOutlineStyle>
+        <AutoOutlineThickness>1</AutoOutlineThickness>
+        <ID>7</ID>
+        <LineSpacing>0</LineSpacing>
+        <Name xml:space="preserve">Monsters Attack</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>None</OutlineStyle>
+        <PointSize>10</PointSize>
+        <SizeMultiplier>4</SizeMultiplier>
+        <SourceFilename xml:space="preserve">D:\DDocuments\FA2024\IGS\MonsterBirthday\Fonts\monsters_attack\Monsters Attack! 1937.TTF</SourceFilename>
         <TTFMetricsFixup>None</TTFMetricsFixup>
         <VerticalOffset>0</VerticalOffset>
       </Font>

@@ -2,6 +2,7 @@
 // the game (local and global). Do not place functions here; rather,
 // place import definitions and #define names here to be used by all
 // scripts.
+import function RandomBoxThink();
 import function WalkToObjectAndPickup(Object *obj);
 import function WalkToObjectAndPickupTall(Object *obj);
 import function GoToObjectAndPickup(Object *pickup);
