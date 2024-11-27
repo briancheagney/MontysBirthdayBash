@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>23</AudioIndexer>
+      <AudioIndexer>24</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets xml:space="preserve">Windows, Web</BuildTargets>
@@ -3211,8 +3211,8 @@
           <InventoryItem>
             <CursorImage>19</CursorImage>
             <Description xml:space="preserve">Rusty Saw</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>60</HotspotX>
+            <HotspotY>30</HotspotY>
             <ID>8</ID>
             <Image>19</Image>
             <Name>iSaw</Name>
@@ -3420,7 +3420,7 @@
               <Event Index="0">iCandles_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">iCandles_UseInv</Event>
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
@@ -3456,7 +3456,7 @@
               <Event Index="0" />
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">iTorch_UseInv</Event>
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
@@ -6797,6 +6797,21 @@ return
                           <Sprite Slot="340" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
                               <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\Monty\MPickupTall\MPickupTall04.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="357" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\montylighttorch.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>186</ImportHeight>
@@ -12499,7 +12514,7 @@ return
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>335</Image>
+                        <Image>357</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -15736,6 +15751,19 @@ See KeyboardMovement.txt for details.
                 <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\balloonpump02.wav</SourceFileName>
                 <Type>3</Type>
                 <FileLastModifiedDate>2024-11-18 14:41:38Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>21</ID>
+                <Index>24</Index>
+                <ScriptName>aCrash</ScriptName>
+                <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\Finals\crash_01.mp3</SourceFileName>
+                <Type>1</Type>
+                <FileLastModifiedDate>2024-11-27 04:50:22Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
