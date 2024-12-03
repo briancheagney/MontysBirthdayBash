@@ -1468,11 +1468,11 @@
         <GUIs>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>34800</BackgroundColor>
+              <BackgroundColor>33800</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <BorderColor>512</BorderColor>
+              <BorderColor>33280</BorderColor>
               <Clickable>True</Clickable>
-              <Height>25</Height>
+              <Height>50</Height>
               <ID>0</ID>
               <Left>0</Left>
               <Name>gStatusline</Name>
@@ -1492,13 +1492,13 @@
                 <Font>0</Font>
                 <Height>46</Height>
                 <ID>0</ID>
-                <Left>8</Left>
+                <Left>9</Left>
                 <Locked>False</Locked>
                 <Name>lblGameName</Name>
                 <Text xml:space="preserve">MONTY'S BIRTHDAY BASH</Text>
                 <TextAlignment>Left</TextAlignment>
-                <TextColor>512</TextColor>
-                <Top>3</Top>
+                <TextColor>16384</TextColor>
+                <Top>12</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>400</Width>
@@ -1510,13 +1510,13 @@
                 <Font>0</Font>
                 <Height>46</Height>
                 <ID>1</ID>
-                <Left>500</Left>
+                <Left>502</Left>
                 <Locked>False</Locked>
                 <Name>lblOverHotspot</Name>
                 <Text>@OVERHOTSPOT@</Text>
                 <TextAlignment>Center</TextAlignment>
-                <TextColor>512</TextColor>
-                <Top>3</Top>
+                <TextColor>16384</TextColor>
+                <Top>12</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>300</Width>
@@ -1526,11 +1526,11 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>34800</BackgroundColor>
+              <BackgroundColor>33800</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <BorderColor>512</BorderColor>
+              <BorderColor>33280</BorderColor>
               <Clickable>True</Clickable>
-              <Height>50</Height>
+              <Height>66</Height>
               <ID>1</ID>
               <Left>0</Left>
               <Name>gIconbar</Name>
@@ -1550,10 +1550,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>42</Height>
+                <Height>60</Height>
                 <ID>0</ID>
                 <Image>2120</Image>
-                <Left>266</Left>
+                <Left>356</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2121</MouseoverImage>
                 <Name>btnIconInv</Name>
@@ -1563,10 +1563,10 @@
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>4</Top>
+                <Top>2</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>45</Width>
+                <Width>72</Width>
                 <ZOrder>0</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1575,7 +1575,7 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>97</Height>
+                <Height>66</Height>
                 <ID>1</ID>
                 <Image>2128</Image>
                 <Left>5</Left>
@@ -1588,10 +1588,10 @@
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>3</Top>
+                <Top>2</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>45</Width>
+                <Width>66</Width>
                 <ZOrder>1</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1600,10 +1600,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>97</Height>
+                <Height>64</Height>
                 <ID>2</ID>
                 <Image>2132</Image>
-                <Left>56</Left>
+                <Left>80</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2133</MouseoverImage>
                 <Name>btnIconLoad</Name>
@@ -1613,10 +1613,10 @@
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>3</Top>
+                <Top>2</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>45</Width>
+                <Width>69</Width>
                 <ZOrder>2</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1625,10 +1625,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>97</Height>
+                <Height>64</Height>
                 <ID>3</ID>
                 <Image>2140</Image>
-                <Left>158</Left>
+                <Left>219</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2141</MouseoverImage>
                 <Name>btnIconExit</Name>
@@ -1638,10 +1638,10 @@
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>3</Top>
+                <Top>2</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>45</Width>
+                <Width>66</Width>
                 <ZOrder>3</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1650,10 +1650,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>97</Height>
+                <Height>63</Height>
                 <ID>4</ID>
                 <Image>2136</Image>
-                <Left>108</Left>
+                <Left>153</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2137</MouseoverImage>
                 <Name>btnIconPanel</Name>
@@ -1663,10 +1663,10 @@
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>3</Top>
+                <Top>2</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>45</Width>
+                <Width>63</Width>
                 <ZOrder>4</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1675,10 +1675,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>48</Height>
+                <Height>67</Height>
                 <ID>5</ID>
                 <Image>91</Image>
-                <Left>209</Left>
+                <Left>287</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Button24</Name>
@@ -1691,25 +1691,25 @@
                 <Top>2</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>53</Width>
+                <Width>61</Width>
                 <ZOrder>5</ZOrder>
               </GUIButton>
               <GUILabel>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Font>6</Font>
-                <Height>45</Height>
+                <Height>40</Height>
                 <ID>6</ID>
-                <Left>464</Left>
+                <Left>536</Left>
                 <Locked>False</Locked>
                 <Name>Label8</Name>
                 <Text>@OVERHOTSPOT@</Text>
                 <TextAlignment>Center</TextAlignment>
-                <TextColor>512</TextColor>
-                <Top>4</Top>
+                <TextColor>16384</TextColor>
+                <Top>13</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>412</Width>
+                <Width>323</Width>
                 <ZOrder>6</ZOrder>
               </GUILabel>
             </Controls>
@@ -4959,13 +4959,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2120" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2120" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\Inventory_01.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Chest_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -4974,13 +4974,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2121" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2121" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\Inventory_02.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Chest_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -4989,13 +4989,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2122" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2122" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\Inventory_03.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Chest_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5004,13 +5004,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2123" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2123" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\Inventory_04.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Chest_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5064,13 +5064,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2128" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2128" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\save.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Save_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5079,13 +5079,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2129" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2129" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\save_02.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Save_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5094,13 +5094,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2130" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2130" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\save_03.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Save_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5109,13 +5109,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2131" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2131" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\save_04.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Save_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5124,13 +5124,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2132" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2132" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\open_01.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Import_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5139,13 +5139,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2133" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2133" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\open_02.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Import_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5154,13 +5154,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2134" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2134" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\open_03.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Import_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5169,13 +5169,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2135" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2135" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\open_04.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Import_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5184,13 +5184,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2136" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2136" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\settings_01.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Settings_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5199,13 +5199,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2137" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2137" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\settings_02.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Settings_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5214,13 +5214,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2138" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2138" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\settings_03.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Settings_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5229,13 +5229,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2139" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2139" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\settings_04.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Settings_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5244,13 +5244,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2140" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2140" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\Power_01.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Power_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5259,13 +5259,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2141" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2141" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\Power_02.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Power_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5274,13 +5274,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2142" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2142" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\Power_03.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Power_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5289,13 +5289,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2143" Width="44" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2143" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\UI\Power_04.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\Power_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>40</ImportHeight>
-                      <ImportWidth>44</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -6170,13 +6170,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="90" Width="45" Height="45" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="90" Width="60" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\PauseMusic.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\MusicOff_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>45</ImportHeight>
-                      <ImportWidth>45</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>60</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -6185,13 +6185,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="91" Width="45" Height="45" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="91" Width="60" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\playmusic.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\VERBSNew\MusicOn_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>45</ImportHeight>
-                      <ImportWidth>45</ImportWidth>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>60</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
