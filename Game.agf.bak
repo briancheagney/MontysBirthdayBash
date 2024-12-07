@@ -684,6 +684,10 @@
             <Description IsNull="True" />
             <Number>2</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>6</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -2950,7 +2954,7 @@
               <PopupYPos>0</PopupYPos>
               <Top>0</Top>
               <Transparency>0</Transparency>
-              <Visible>True</Visible>
+              <Visible>False</Visible>
               <Width>1280</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
@@ -3793,7 +3797,7 @@
             <SpeechView>40</SpeechView>
             <StartX>593</StartX>
             <StartY>630</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>6</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -4648,6 +4652,11 @@ return
           <DefaultValue>false</DefaultValue>
           <Name>CanGetTimer</Name>
           <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue />
+          <Name>wheelrotation</Name>
+          <Type>DynamicSprite*</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -11178,6 +11187,51 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="359" Width="720" Height="720" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\wheel.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>720</ImportHeight>
+                      <ImportWidth>720</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="360" Width="720" Height="720" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\wheel.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>720</ImportHeight>
+                      <ImportWidth>720</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="361" Width="512" Height="2160" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\slider2.jpg</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>2160</ImportHeight>
+                      <ImportWidth>512</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="RoomStuff">
@@ -11388,6 +11442,10 @@ return
                     </Sprites>
                   </SpriteFolder>
                 </SubFolders>
+                <Sprites />
+              </SpriteFolder>
+              <SpriteFolder Name="Backgrounds">
+                <SubFolders />
                 <Sprites />
               </SpriteFolder>
             </SubFolders>
