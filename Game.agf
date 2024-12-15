@@ -3791,8 +3791,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>34800</SpeechColor>
             <SpeechView>40</SpeechView>
-            <StartX>593</StartX>
-            <StartY>630</StartY>
+            <StartX>545</StartX>
+            <StartY>1395</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -4648,6 +4648,11 @@ return
           <DefaultValue>false</DefaultValue>
           <Name>CanGetTimer</Name>
           <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>HumWalkUp</Name>
+          <Type>int</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
