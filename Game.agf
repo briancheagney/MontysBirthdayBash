@@ -4654,6 +4654,36 @@ return
           <Name>HumWalkUp</Name>
           <Type>int</Type>
         </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>WalkSwitch</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>970</DefaultValue>
+          <Name>HumanWalkAX</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>533</DefaultValue>
+          <Name>HumanWalkAY</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>ShouldExplode</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>1150</DefaultValue>
+          <Name>HumanWalkBX</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>666</DefaultValue>
+          <Name>HumanWalkBY</Name>
+          <Type>int</Type>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -15599,22 +15629,22 @@ See KeyboardMovement.txt for details.
                 <ID>7</ID>
                 <Index>9</Index>
                 <ScriptName>aPickup</ScriptName>
-                <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\Finals\pickup.wav</SourceFileName>
+                <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\Pickup_01.wav</SourceFileName>
                 <Type>3</Type>
-                <FileLastModifiedDate>2024-11-09 15:16:14Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-16 20:12:24Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InGameEXE</BundlingType>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <DefaultVolume>50</DefaultVolume>
+                <DefaultVolume>25</DefaultVolume>
                 <FileType>WAV</FileType>
                 <ID>8</ID>
                 <Index>10</Index>
                 <ScriptName>aWalk</ScriptName>
-                <SourceFileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Audio\Finals\walk.wav</SourceFileName>
+                <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\Footstep_01.wav</SourceFileName>
                 <Type>1</Type>
-                <FileLastModifiedDate>2024-11-09 15:18:50Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-16 19:58:20Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InGameEXE</BundlingType>
