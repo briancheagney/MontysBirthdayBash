@@ -1712,6 +1712,31 @@
                 <Width>323</Width>
                 <ZOrder>6</ZOrder>
               </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>59</Height>
+                <ID>7</ID>
+                <Image>0</Image>
+                <Left>1209</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button29</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text />
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>3</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>67</Width>
+                <ZOrder>7</ZOrder>
+              </GUIButton>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -3722,6 +3747,24 @@
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
+          <InventoryItem>
+            <CursorImage>407</CursorImage>
+            <Description xml:space="preserve">The Kitty Cat Loves You</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>27</ID>
+            <Image>407</Image>
+            <Name>iCatBadge</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
         </InventoryItems>
       </InventoryItemFolder>
     </InventoryItems>
@@ -4164,7 +4207,7 @@
             <DiagonalLoops>True</DiagonalLoops>
             <ID>6</ID>
             <IdleAnimationDelay>4</IdleAnimationDelay>
-            <IdleDelay>20</IdleDelay>
+            <IdleDelay>4</IdleDelay>
             <IdleView>0</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <MovementSpeed>30</MovementSpeed>
@@ -4181,10 +4224,10 @@
             <ScriptName>cCat</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>63488</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>358</StartX>
-            <StartY>222</StartY>
+            <StartX>348</StartX>
+            <StartY>294</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -4194,7 +4237,7 @@
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cCat_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -4208,7 +4251,227 @@
     <PlayerCharacter>1</PlayerCharacter>
     <Dialogs>
       <DialogFolder Name="Main">
-        <SubFolders />
+        <SubFolders>
+          <DialogFolder Name="CatsMeows">
+            <SubFolders />
+            <Dialogs>
+              <Dialog>
+                <ID>2</ID>
+                <Name>dCatQ01</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Cat: Now it's my turn.
+Cat: Ready?
+Cat: spss spss spss
+return
+@1
+goto-dialog 3
+@2
+Cat: Meh.
+  ViewFrame *frame = Game.GetViewFrame(47, 0, 0);
+  frame.Graphic=359;
+  ViewFrame *frame2 = Game.GetViewFrame(54, 0, 0);
+  frame2.Graphic=400;
+  ViewFrame *frame3 = Game.GetViewFrame(54, 0, 1);
+  frame3.Graphic=401;
+  ViewFrame *frame4 = Game.GetViewFrame(54, 0, 2);
+  frame4.Graphic=402;
+  ViewFrame *frame5 = Game.GetViewFrame(54, 0, 3);
+  frame5.Graphic=401;
+  cCat.SetIdleView(0,0);
+  CatFriend=0;
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>Mew</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>Meow</Text>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>3</ID>
+                <Name>dCatQ02</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Cat: Mrowwr?
+return
+@1
+Cat: Meh.
+  ViewFrame *frame = Game.GetViewFrame(47, 0, 0);
+  frame.Graphic=359;
+  ViewFrame *frame2 = Game.GetViewFrame(54, 0, 0);
+  frame2.Graphic=400;
+  ViewFrame *frame3 = Game.GetViewFrame(54, 0, 1);
+  frame3.Graphic=401;
+  ViewFrame *frame4 = Game.GetViewFrame(54, 0, 2);
+  frame4.Graphic=402;
+  ViewFrame *frame5 = Game.GetViewFrame(54, 0, 3);
+  frame5.Graphic=401;
+  cCat.SetIdleView(0,0);
+  CatFriend=0;
+stop
+@2
+goto-dialog 4
+@3
+Cat: HISSS!
+  ViewFrame *frame = Game.GetViewFrame(47, 0, 0);
+  frame.Graphic=359;
+  ViewFrame *frame2 = Game.GetViewFrame(54, 0, 0);
+  frame2.Graphic=400;
+  ViewFrame *frame3 = Game.GetViewFrame(54, 0, 1);
+  frame3.Graphic=401;
+  ViewFrame *frame4 = Game.GetViewFrame(54, 0, 2);
+  frame4.Graphic=402;
+  ViewFrame *frame5 = Game.GetViewFrame(54, 0, 3);
+  frame5.Graphic=401;
+  cCat.SetIdleView(0,0);
+  CatFriend=0;
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>Roarrrrrwwrr</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>Mrerr...</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>Woof!</Text>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>4</ID>
+                <Name>dCatQ03</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Cat: prrrrr...
+return
+@1
+Cat: Meh.
+  ViewFrame *frame = Game.GetViewFrame(47, 0, 0);
+  frame.Graphic=359;
+  ViewFrame *frame2 = Game.GetViewFrame(54, 0, 0);
+  frame2.Graphic=400;
+  ViewFrame *frame3 = Game.GetViewFrame(54, 0, 1);
+  frame3.Graphic=401;
+  ViewFrame *frame4 = Game.GetViewFrame(54, 0, 2);
+  frame4.Graphic=402;
+  ViewFrame *frame5 = Game.GetViewFrame(54, 0, 3);
+  frame5.Graphic=401;
+  cCat.SetIdleView(0,0);
+  CatFriend=0;
+stop
+@2
+Cat: Meh.
+  ViewFrame *frame = Game.GetViewFrame(47, 0, 0);
+  frame.Graphic=359;
+  ViewFrame *frame2 = Game.GetViewFrame(54, 0, 0);
+  frame2.Graphic=400;
+  ViewFrame *frame3 = Game.GetViewFrame(54, 0, 1);
+  frame3.Graphic=401;
+  ViewFrame *frame4 = Game.GetViewFrame(54, 0, 2);
+  frame4.Graphic=402;
+  ViewFrame *frame5 = Game.GetViewFrame(54, 0, 3);
+  frame5.Graphic=401;
+  cCat.SetIdleView(0,0);
+  CatFriend=0;
+stop
+@3
+Cat: ????
+Cat: Meh.
+  ViewFrame *frame = Game.GetViewFrame(47, 0, 0);
+  frame.Graphic=359;
+  ViewFrame *frame2 = Game.GetViewFrame(54, 0, 0);
+  frame2.Graphic=400;
+  ViewFrame *frame3 = Game.GetViewFrame(54, 0, 1);
+  frame3.Graphic=401;
+  ViewFrame *frame4 = Game.GetViewFrame(54, 0, 2);
+  frame4.Graphic=402;
+  ViewFrame *frame5 = Game.GetViewFrame(54, 0, 3);
+  frame5.Graphic=401;
+  cCat.SetIdleView(0,0);
+  CatFriend=0;
+stop
+@4
+Cat: prrrrrrrrr......
+Cat: You've earned a badge, my friend.
+ gIconbar.Controls[7].AsButton.NormalGraphic = 408;
+ CatFriend=3;
+stop
+@5
+Cat: Meh.
+  ViewFrame *frame = Game.GetViewFrame(47, 0, 0);
+  frame.Graphic=359;
+  ViewFrame *frame2 = Game.GetViewFrame(54, 0, 0);
+  frame2.Graphic=400;
+  ViewFrame *frame3 = Game.GetViewFrame(54, 0, 1);
+  frame3.Graphic=401;
+  ViewFrame *frame4 = Game.GetViewFrame(54, 0, 2);
+  frame4.Graphic=402;
+  ViewFrame *frame5 = Game.GetViewFrame(54, 0, 3);
+  frame5.Graphic=401;
+  cCat.SetIdleView(0,0);
+  CatFriend=0;
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>Meow</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>mew</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>ROAR</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>RRRRWWWRRRRR...</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>5</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>*whimper*</Text>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+            </Dialogs>
+          </DialogFolder>
+        </SubFolders>
         <Dialogs>
           <Dialog>
             <ID>0</ID>
@@ -4940,6 +5203,11 @@ return
           <DefaultValue>false</DefaultValue>
           <Name>GUIAutoClose</Name>
           <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>CatFriend</Name>
+          <Type>int</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -8763,6 +9031,127 @@ return
                       </Sprite>
                     </Sprites>
                   </SpriteFolder>
+                  <SpriteFolder Name="Cat">
+                    <SubFolders>
+                      <SpriteFolder Name="TailWag">
+                        <SubFolders />
+                        <Sprites>
+                          <Sprite Slot="400" Width="141" Height="132" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Cat\cattailwag_01.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>132</ImportHeight>
+                              <ImportWidth>141</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="401" Width="141" Height="132" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Cat\cattailwag_02.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>132</ImportHeight>
+                              <ImportWidth>141</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="402" Width="141" Height="132" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Cat\cattailwag_03.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>132</ImportHeight>
+                              <ImportWidth>141</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                        </Sprites>
+                      </SpriteFolder>
+                      <SpriteFolder Name="RollTailWag">
+                        <SubFolders />
+                        <Sprites>
+                          <Sprite Slot="404" Width="141" Height="132" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Cat\CatRollWag\catrollwag_01.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>132</ImportHeight>
+                              <ImportWidth>141</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="405" Width="141" Height="132" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Cat\CatRollWag\catrollwag_02.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>132</ImportHeight>
+                              <ImportWidth>141</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="406" Width="141" Height="132" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Cat\CatRollWag\catrollwag_03.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>132</ImportHeight>
+                              <ImportWidth>141</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                        </Sprites>
+                      </SpriteFolder>
+                    </SubFolders>
+                    <Sprites>
+                      <Sprite Slot="408" Width="68" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\catheadbadge.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>60</ImportHeight>
+                          <ImportWidth>68</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
                 </SubFolders>
                 <Sprites />
               </SpriteFolder>
@@ -12040,12 +12429,12 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="359" Width="141" Height="66" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="359" Width="141" Height="132" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\CatSleep.png</FileName>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\cat_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>66</ImportHeight>
+                      <ImportHeight>132</ImportHeight>
                       <ImportWidth>141</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -12107,6 +12496,36 @@ return
                       <OffsetY>0</OffsetY>
                       <ImportHeight>400</ImportHeight>
                       <ImportWidth>400</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="403" Width="141" Height="132" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\cat_02tail.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>141</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="407" Width="100" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\catheadinventory.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>100</ImportHeight>
+                      <ImportWidth>100</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -16589,6 +17008,65 @@ return
                         <Flipped>False</Flipped>
                         <ID>2</ID>
                         <Image>363</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>54</ID>
+                <Name>CatTailWag</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>400</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>401</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>402</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>401</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>55</ID>
+                <Name>CatLongTailIdle</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>403</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>

@@ -1,7 +1,1 @@
-Game : (room:3) Dialog: all options have been turned off, stopping dialog.
-Game : (room:3) Dialog: all options have been turned off, stopping dialog.
-Game : (room:5)[R 537] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
-Game : (room:5)[R 537] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
-Game : (room:5)[R 537] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
-Game : (room:3)[G 1117] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
-Game : (room:3)[G 794] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
+Game : (room:3)[G 1403] WARNING: Character cMonty speech view 40 does not have necessary loop 2; switching to loop 0.
