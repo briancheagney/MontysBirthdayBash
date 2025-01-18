@@ -4233,7 +4233,7 @@
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaScaling>False</UseRoomAreaScaling>
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
@@ -11906,7 +11906,7 @@ return
                   </Sprite>
                   <Sprite Slot="78" Width="100" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\brian\Downloads\candles.png</FileName>
+                      <FileName>C:\Users\bheagney\Documents\Monster\Images\candles_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>100</ImportHeight>
