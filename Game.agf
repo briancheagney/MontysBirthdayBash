@@ -3339,11 +3339,11 @@
                 <Clickable>True</Clickable>
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
-                <Font>0</Font>
+                <Font>8</Font>
                 <Height>47</Height>
                 <ID>1</ID>
                 <Image>0</Image>
-                <Left>246</Left>
+                <Left>103</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Button31</Name>
@@ -3351,9 +3351,9 @@
                 <OnClick>Button31_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>Close</Text>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Top>480</Top>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>50712</TextColor>
+                <Top>483</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>185</Width>
@@ -3377,6 +3377,56 @@
                 <Width>362</Width>
                 <ZOrder>2</ZOrder>
               </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>46</Height>
+                <ID>3</ID>
+                <Image>0</Image>
+                <Left>509</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button32</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Button32_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>Down</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>483</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>70</Width>
+                <ZOrder>3</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>45</Height>
+                <ID>4</ID>
+                <Image>0</Image>
+                <Left>428</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button33</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Button33_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>Up</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>483</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>74</Width>
+                <ZOrder>4</ZOrder>
+              </GUIButton>
             </Controls>
           </GUIMain>
         </GUIs>
@@ -3396,6 +3446,168 @@
                 <ID>28</ID>
                 <Image>419</Image>
                 <Name>iAchievement01</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>421</CursorImage>
+                <Description>Achievement02</Description>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <ID>29</ID>
+                <Image>421</Image>
+                <Name>iAchievement02</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>422</CursorImage>
+                <Description>Achievement03</Description>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <ID>30</ID>
+                <Image>422</Image>
+                <Name>iAchievement03</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>423</CursorImage>
+                <Description>Achievement04</Description>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <ID>31</ID>
+                <Image>423</Image>
+                <Name>iAchievement04</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>424</CursorImage>
+                <Description>Achievement05</Description>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <ID>32</ID>
+                <Image>424</Image>
+                <Name>iAchievement05</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>425</CursorImage>
+                <Description>Achievement06</Description>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <ID>33</ID>
+                <Image>425</Image>
+                <Name>iAchievement06</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>426</CursorImage>
+                <Description>Achievement07</Description>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <ID>34</ID>
+                <Image>426</Image>
+                <Name>iAchievement07</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>427</CursorImage>
+                <Description>Achievement08</Description>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <ID>35</ID>
+                <Image>427</Image>
+                <Name>iAchievement08</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>428</CursorImage>
+                <Description>Achievement09</Description>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <ID>36</ID>
+                <Image>428</Image>
+                <Name>iAchievement09</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>429</CursorImage>
+                <Description>Achievement10</Description>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <ID>37</ID>
+                <Image>429</Image>
+                <Name>iAchievement10</Name>
                 <PlayerStartsWithItem>False</PlayerStartsWithItem>
                 <Properties />
                 <Interactions>
@@ -13137,6 +13349,141 @@ return
                   <Sprite Slot="419" Width="640" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Achievements\achievement_01.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>150</ImportHeight>
+                      <ImportWidth>640</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>NoTransparency</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="421" Width="640" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Achievements\achievement_02.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>150</ImportHeight>
+                      <ImportWidth>640</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>NoTransparency</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="422" Width="640" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Achievements\achievement_03.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>150</ImportHeight>
+                      <ImportWidth>640</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>NoTransparency</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="423" Width="640" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Achievements\achievement_04.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>150</ImportHeight>
+                      <ImportWidth>640</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>NoTransparency</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="424" Width="640" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Achievements\achievement_05.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>150</ImportHeight>
+                      <ImportWidth>640</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>NoTransparency</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="425" Width="640" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Achievements\achievement_06.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>150</ImportHeight>
+                      <ImportWidth>640</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>NoTransparency</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="426" Width="640" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Achievements\achievement_07.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>150</ImportHeight>
+                      <ImportWidth>640</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>NoTransparency</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="427" Width="640" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Achievements\achievement_08.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>150</ImportHeight>
+                      <ImportWidth>640</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>NoTransparency</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="428" Width="640" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Achievements\achievement_09.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>150</ImportHeight>
+                      <ImportWidth>640</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>NoTransparency</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="429" Width="640" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Achievements\achievement_10.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>150</ImportHeight>
