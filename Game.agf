@@ -1721,7 +1721,7 @@
                 <Height>59</Height>
                 <ID>7</ID>
                 <Image>0</Image>
-                <Left>1209</Left>
+                <Left>1129</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Button29</Name>
@@ -1731,11 +1731,36 @@
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>3</Top>
+                <Top>2</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>67</Width>
                 <ZOrder>7</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>59</Height>
+                <ID>8</ID>
+                <Image>421</Image>
+                <Left>1209</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button33</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Button33_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>2</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>59</Width>
+                <ZOrder>8</ZOrder>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -3280,14 +3305,14 @@
               <Clickable>True</Clickable>
               <Height>480</Height>
               <ID>21</ID>
-              <Left>0</Left>
+              <Left>300</Left>
               <Name>gAchievements</Name>
               <OnClick />
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <Top>0</Top>
+              <Top>150</Top>
               <Transparency>0</Transparency>
-              <Visible>True</Visible>
+              <Visible>False</Visible>
               <Width>500</Width>
               <ZOrder>10</ZOrder>
             </NormalGUI>
@@ -3323,7 +3348,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Button30</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick />
+                <OnClick>Button30_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>Close</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
@@ -3346,9 +3371,9 @@
                 <Left>253</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
-                <Name>Button31</Name>
+                <Name>Ach_Up</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick />
+                <OnClick>Ach_Up_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>Up</Text>
                 <TextAlignment>TopCenter</TextAlignment>
@@ -3371,9 +3396,9 @@
                 <Left>358</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
-                <Name>Button32</Name>
+                <Name>Ach_down</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick />
+                <OnClick>Ach_down_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>Down</Text>
                 <TextAlignment>BottomCenter</TextAlignment>
@@ -3493,6 +3518,78 @@
                 <ID>32</ID>
                 <Image>420</Image>
                 <Name>iACH05</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>0</CursorImage>
+                <Description xml:space="preserve">Achievement 06</Description>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <ID>33</ID>
+                <Image>420</Image>
+                <Name>iACH06</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>0</CursorImage>
+                <Description xml:space="preserve">Achievement 07</Description>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <ID>34</ID>
+                <Image>420</Image>
+                <Name>iACH07</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>0</CursorImage>
+                <Description xml:space="preserve">Achievement 08</Description>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <ID>35</ID>
+                <Image>420</Image>
+                <Name>iACH08</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>0</CursorImage>
+                <Description xml:space="preserve">Achievement 09</Description>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <ID>36</ID>
+                <Image>420</Image>
+                <Name>iACH09</Name>
                 <PlayerStartsWithItem>False</PlayerStartsWithItem>
                 <Properties />
                 <Interactions>
@@ -4729,7 +4826,8 @@ stop
 @4
 Cat: prrrrrrrrr......
 Cat: You've earned a badge, my friend.
- gIconbar.Controls[7].AsButton.NormalGraphic = 408;
+ //gIconbar.Controls[7].AsButton.NormalGraphic = 408;
+ iACH02.Graphic=423;
  CatFriend=3;
 stop
 @5
@@ -5520,6 +5618,46 @@ return
           <DefaultValue>0</DefaultValue>
           <Name>CatFriend</Name>
           <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue />
+          <Name>CurrentRoom</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>SpokeCat</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>ACHBeat</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>DeathCount</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>ACHSaw</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>ACHDyno1</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>ACHDyno2</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>ACHMeat</Name>
+          <Type>bool</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -13001,6 +13139,21 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="421" Width="59" Height="59" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\bheagney\Documents\Monster\Images\achievementbutton.bmp</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>59</ImportHeight>
+                      <ImportWidth>59</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="RoomStuff">
@@ -13234,6 +13387,141 @@ return
                   <Sprite Slot="420" Width="400" Height="94" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>C:\Users\bheagney\Documents\Monster\Images\Achievements\ACH_02.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>94</ImportHeight>
+                      <ImportWidth>400</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>NoTransparency</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="422" Width="400" Height="94" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\bheagney\Documents\Monster\Images\Achievements\01_catgottongue.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>94</ImportHeight>
+                      <ImportWidth>400</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="423" Width="400" Height="94" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\bheagney\Documents\Monster\Images\Achievements\02_friendtoall.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>94</ImportHeight>
+                      <ImportWidth>400</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="424" Width="400" Height="94" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\bheagney\Documents\Monster\Images\Achievements\03_beaten.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>94</ImportHeight>
+                      <ImportWidth>400</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="425" Width="400" Height="94" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\bheagney\Documents\Monster\Images\Achievements\04_sawrender.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>94</ImportHeight>
+                      <ImportWidth>400</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>NoTransparency</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="426" Width="400" Height="94" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\bheagney\Documents\Monster\Images\Achievements\05_blownaway01.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>94</ImportHeight>
+                      <ImportWidth>400</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>NoTransparency</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="427" Width="400" Height="94" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\bheagney\Documents\Monster\Images\Achievements\06_blownaway02.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>94</ImportHeight>
+                      <ImportWidth>400</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>NoTransparency</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="428" Width="400" Height="94" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\bheagney\Documents\Monster\Images\Achievements\07_grindmygears.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>94</ImportHeight>
+                      <ImportWidth>400</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>NoTransparency</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="429" Width="400" Height="94" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\bheagney\Documents\Monster\Images\Achievements\08_10times.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>94</ImportHeight>
+                      <ImportWidth>400</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>NoTransparency</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="430" Width="400" Height="94" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\bheagney\Documents\Monster\Images\Achievements\09_100times.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>94</ImportHeight>
@@ -18105,7 +18393,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>aSpookybackground01</ScriptName>
                 <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\backgrounds\Exports\spookybackground01.wav</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-10-13 23:55:07Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2025-01-20 21:03:18Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
