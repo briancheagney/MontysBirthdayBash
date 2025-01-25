@@ -5677,6 +5677,11 @@ return
           <Name>ACHMeat</Name>
           <Type>bool</Type>
         </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue />
+          <Name>skullhead</Name>
+          <Type>Object*</Type>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -13169,6 +13174,21 @@ return
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
                       <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="433" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\skullcandlessmall.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>75</ImportHeight>
+                      <ImportWidth>75</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
