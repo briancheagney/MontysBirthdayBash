@@ -4845,6 +4845,7 @@ stop
 Cat: prrrrrrrrr......
 Cat: You've earned a badge, my friend.
  //gIconbar.Controls[7].AsButton.NormalGraphic = 408;
+ AchievementNew=true;
  iACH02.Graphic=431;
  CatFriend=3;
 stop
