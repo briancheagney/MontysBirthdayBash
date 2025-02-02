@@ -5693,6 +5693,11 @@ return
           <Name>AchievementNewWaitInt</Name>
           <Type>int</Type>
         </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>CanDieInGrinder</Name>
+          <Type>int</Type>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
