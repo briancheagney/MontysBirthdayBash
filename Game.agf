@@ -3413,19 +3413,73 @@
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Font>8</Font>
-                <Height>30</Height>
+                <Height>23</Height>
                 <ID>4</ID>
-                <Left>97</Left>
+                <Left>99</Left>
                 <Locked>False</Locked>
                 <Name>Label9</Name>
                 <Text>Achievements</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>33808</TextColor>
-                <Top>30</Top>
+                <Top>11</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>284</Width>
+                <Width>285</Width>
                 <ZOrder>4</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>8</Font>
+                <Height>22</Height>
+                <ID>5</ID>
+                <Left>76</Left>
+                <Locked>False</Locked>
+                <Name>LabelMinutes</Name>
+                <Text>00</Text>
+                <TextAlignment>Right</TextAlignment>
+                <TextColor>33808</TextColor>
+                <Top>44</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>150</Width>
+                <ZOrder>5</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>8</Font>
+                <Height>26</Height>
+                <ID>6</ID>
+                <Left>234</Left>
+                <Locked>False</Locked>
+                <Name>Label10</Name>
+                <Text>:</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>33808</TextColor>
+                <Top>43</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>16</Width>
+                <ZOrder>6</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>8</Font>
+                <Height>22</Height>
+                <ID>7</ID>
+                <Left>253</Left>
+                <Locked>False</Locked>
+                <Name>LabelSeconds</Name>
+                <Text>00</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>33808</TextColor>
+                <Top>43</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>130</Width>
+                <ZOrder>7</ZOrder>
               </GUILabel>
             </Controls>
           </GUIMain>
@@ -5697,6 +5751,26 @@ return
           <DefaultValue>0</DefaultValue>
           <Name>CanDieInGrinder</Name>
           <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>GameSpeedFrames</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>GameSpeedSeconds</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>GameSpeedMinutes</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>true</DefaultValue>
+          <Name>ShouldCountTimer</Name>
+          <Type>bool</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
