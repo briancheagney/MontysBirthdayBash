@@ -3654,6 +3654,24 @@
                   <Event Index="4" />
                 </Interactions>
               </InventoryItem>
+              <InventoryItem>
+                <CursorImage>0</CursorImage>
+                <Description xml:space="preserve">Achievement 10</Description>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <ID>38</ID>
+                <Image>441</Image>
+                <Name>iACH10</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
             </InventoryItems>
           </InventoryItemFolder>
         </SubFolders>
@@ -13802,13 +13820,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="441" Width="640" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="441" Width="400" Height="94" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Achievements\achievement_11.png</FileName>
+                      <FileName>C:\Users\bheagney\Documents\Monster\Images\Achievements\ACH_10.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>150</ImportHeight>
-                      <ImportWidth>640</ImportWidth>
+                      <ImportHeight>94</ImportHeight>
+                      <ImportWidth>400</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>True</RemapToGamePalette>
@@ -13817,13 +13835,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="442" Width="640" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="442" Width="400" Height="94" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Achievements\achievementticktock.png</FileName>
+                      <FileName>C:\Users\bheagney\Documents\Monster\Images\Achievements\10_BeatBrianScore.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>150</ImportHeight>
-                      <ImportWidth>640</ImportWidth>
+                      <ImportHeight>94</ImportHeight>
+                      <ImportWidth>400</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -13832,13 +13850,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="443" Width="640" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="443" Width="400" Height="94" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Achievements\TimeUnlock.png</FileName>
+                      <FileName>C:\Users\bheagney\Documents\Monster\Images\Achievements\00ClickUnolock_03Timing.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>150</ImportHeight>
-                      <ImportWidth>640</ImportWidth>
+                      <ImportHeight>94</ImportHeight>
+                      <ImportWidth>400</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -18816,7 +18834,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>aSpookybackground01</ScriptName>
                 <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\backgrounds\Exports\spookybackground01.wav</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-10-04 14:14:19Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2025-01-20 21:03:18Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
