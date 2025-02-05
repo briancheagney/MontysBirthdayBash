@@ -1468,9 +1468,9 @@
         <GUIs>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>33800</BackgroundColor>
+              <BackgroundColor>37736</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <BorderColor>33280</BorderColor>
+              <BorderColor>29221</BorderColor>
               <Clickable>True</Clickable>
               <Height>50</Height>
               <ID>0</ID>
@@ -1497,7 +1497,7 @@
                 <Name>lblGameName</Name>
                 <Text xml:space="preserve">MONTY'S BIRTHDAY BASH</Text>
                 <TextAlignment>Left</TextAlignment>
-                <TextColor>16384</TextColor>
+                <TextColor>16707</TextColor>
                 <Top>12</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
@@ -1515,7 +1515,7 @@
                 <Name>lblOverHotspot</Name>
                 <Text>@OVERHOTSPOT@</Text>
                 <TextAlignment>Center</TextAlignment>
-                <TextColor>16384</TextColor>
+                <TextColor>16707</TextColor>
                 <Top>12</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
@@ -1526,9 +1526,9 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>33800</BackgroundColor>
+              <BackgroundColor>37736</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <BorderColor>33280</BorderColor>
+              <BorderColor>29221</BorderColor>
               <Clickable>True</Clickable>
               <Height>66</Height>
               <ID>1</ID>
@@ -1705,7 +1705,7 @@
                 <Name>Label8</Name>
                 <Text>@OVERHOTSPOT@</Text>
                 <TextAlignment>Center</TextAlignment>
-                <TextColor>16384</TextColor>
+                <TextColor>16707</TextColor>
                 <Top>12</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
@@ -3299,18 +3299,18 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>33800</BackgroundColor>
+              <BackgroundColor>43977</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <BorderColor>0</BorderColor>
+              <BorderColor>16707</BorderColor>
               <Clickable>True</Clickable>
               <Height>480</Height>
               <ID>21</ID>
-              <Left>300</Left>
+              <Left>390</Left>
               <Name>gAchievements</Name>
               <OnClick />
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <Top>150</Top>
+              <Top>170</Top>
               <Transparency>0</Transparency>
               <Visible>False</Visible>
               <Width>500</Width>
@@ -3325,13 +3325,13 @@
                 <ID>0</ID>
                 <ItemHeight>100</ItemHeight>
                 <ItemWidth>410</ItemWidth>
-                <Left>25</Left>
+                <Left>45</Left>
                 <Locked>False</Locked>
                 <Name>AchievementWindow</Name>
                 <Top>80</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>450</Width>
+                <Width>410</Width>
                 <ZOrder>0</ZOrder>
               </GUIInventory>
               <GUIButton>
@@ -3352,7 +3352,7 @@
                 <PushedImage>0</PushedImage>
                 <Text>Close</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
-                <TextColor>33800</TextColor>
+                <TextColor>29221</TextColor>
                 <Top>405</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
@@ -3377,7 +3377,7 @@
                 <PushedImage>0</PushedImage>
                 <Text>Up</Text>
                 <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>33800</TextColor>
+                <TextColor>29221</TextColor>
                 <Top>405</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
@@ -3402,7 +3402,7 @@
                 <PushedImage>0</PushedImage>
                 <Text>Down</Text>
                 <TextAlignment>BottomCenter</TextAlignment>
-                <TextColor>33800</TextColor>
+                <TextColor>29221</TextColor>
                 <Top>405</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
@@ -3420,7 +3420,7 @@
                 <Name>Label9</Name>
                 <Text>Achievements</Text>
                 <TextAlignment>Center</TextAlignment>
-                <TextColor>33808</TextColor>
+                <TextColor>29221</TextColor>
                 <Top>11</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
@@ -3438,8 +3438,8 @@
                 <Name>LabelMinutes</Name>
                 <Text>00</Text>
                 <TextAlignment>Right</TextAlignment>
-                <TextColor>33808</TextColor>
-                <Top>44</Top>
+                <TextColor>37736</TextColor>
+                <Top>43</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>150</Width>
@@ -3456,7 +3456,7 @@
                 <Name>Label10</Name>
                 <Text>:</Text>
                 <TextAlignment>Left</TextAlignment>
-                <TextColor>33808</TextColor>
+                <TextColor>37736</TextColor>
                 <Top>43</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
@@ -3474,7 +3474,7 @@
                 <Name>LabelSeconds</Name>
                 <Text>00</Text>
                 <TextAlignment>Left</TextAlignment>
-                <TextColor>33808</TextColor>
+                <TextColor>37736</TextColor>
                 <Top>43</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
@@ -4768,6 +4768,7 @@ return
 goto-dialog 3
 @2
 Cat: Meh.
+  //the code below switches out the animations of the cat - resetting them to previous state BEFORE talking to it.
   ViewFrame *frame = Game.GetViewFrame(47, 0, 0);
   frame.Graphic=359;
   ViewFrame *frame2 = Game.GetViewFrame(54, 0, 0);
@@ -4807,6 +4808,7 @@ Cat: Mrowwr?
 return
 @1
 Cat: Meh.
+ //I don't remember what ViewFrame does!!!! 
   ViewFrame *frame = Game.GetViewFrame(47, 0, 0);
   frame.Graphic=359;
   ViewFrame *frame2 = Game.GetViewFrame(54, 0, 0);
@@ -4824,6 +4826,21 @@ stop
 goto-dialog 4
 @3
 Cat: HISSS!
+  ViewFrame *frame = Game.GetViewFrame(47, 0, 0);
+  frame.Graphic=359;
+  ViewFrame *frame2 = Game.GetViewFrame(54, 0, 0);
+  frame2.Graphic=400;
+  ViewFrame *frame3 = Game.GetViewFrame(54, 0, 1);
+  frame3.Graphic=401;
+  ViewFrame *frame4 = Game.GetViewFrame(54, 0, 2);
+  frame4.Graphic=402;
+  ViewFrame *frame5 = Game.GetViewFrame(54, 0, 3);
+  frame5.Graphic=401;
+  cCat.SetIdleView(0,0);
+  CatFriend=0;
+stop
+@4
+cat: Meh.
   ViewFrame *frame = Game.GetViewFrame(47, 0, 0);
   frame.Graphic=359;
   ViewFrame *frame2 = Game.GetViewFrame(54, 0, 0);
@@ -4856,6 +4873,12 @@ stop
                     <Say>True</Say>
                     <Show>True</Show>
                     <Text>Woof!</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>mew</Text>
                   </DialogOption>
                 </DialogOptions>
               </Dialog>
@@ -4954,7 +4977,7 @@ stop
                     <ID>3</ID>
                     <Say>True</Say>
                     <Show>True</Show>
-                    <Text>ROAR</Text>
+                    <Text>ROARRRR</Text>
                   </DialogOption>
                   <DialogOption>
                     <ID>4</ID>
@@ -4966,7 +4989,7 @@ stop
                     <ID>5</ID>
                     <Say>True</Say>
                     <Show>True</Show>
-                    <Text>*whimper*</Text>
+                    <Text>**purrrrrrrr**</Text>
                   </DialogOption>
                 </DialogOptions>
               </Dialog>
@@ -5344,8 +5367,8 @@ return
       <PaletteEntry Index="45" Type="Background" Red="20" Green="4" Blue="4" />
       <PaletteEntry Index="46" Type="Background" Red="196" Green="20" Blue="4" />
       <PaletteEntry Index="47" Type="Background" Red="148" Green="136" Blue="132" />
-      <PaletteEntry Index="48" Type="Background" Red="68" Green="12" Blue="4" />
-      <PaletteEntry Index="49" Type="Background" Red="148" Green="124" Blue="120" />
+      <PaletteEntry Index="48" Type="Gamewide" Red="91" Green="66" Blue="0" />
+      <PaletteEntry Index="49" Type="Gamewide" Red="145" Green="105" Blue="0" />
       <PaletteEntry Index="50" Type="Background" Red="176" Green="168" Blue="168" />
       <PaletteEntry Index="51" Type="Background" Red="164" Green="128" Blue="124" />
       <PaletteEntry Index="52" Type="Background" Red="88" Green="84" Blue="84" />
@@ -18834,7 +18857,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>aSpookybackground01</ScriptName>
                 <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\backgrounds\Exports\spookybackground01.wav</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2025-01-20 21:03:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-10-04 14:14:19Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
