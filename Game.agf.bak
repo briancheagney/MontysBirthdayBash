@@ -12445,7 +12445,7 @@ return
                   </Sprite>
                   <Sprite Slot="13" Width="100" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\pen.png</FileName>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\pen01shadow.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>100</ImportHeight>
