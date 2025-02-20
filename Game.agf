@@ -3841,7 +3841,7 @@
                 <Left>118</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
-                <Name>Button39</Name>
+                <Name>CrossFunny02</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick />
                 <PushedImage>0</PushedImage>
@@ -5815,7 +5815,8 @@ Cat: You've earned a badge, my friend.
  AchievementNew=true;
  iACH02.Graphic=431;
  CatFriend=3;
- gQuestLivingRoom.Controls[15].AsButton.Visible=true;
+ //gQuestLivingRoom.Controls[15].AsButton.Visible=true;
+ CrossOffList(1,gQuestLivingRoom,CrossCat,null);
 stop
 @5
 Cat: Meh.
@@ -6709,6 +6710,11 @@ return
         <GlobalVariable>
           <DefaultValue>false</DefaultValue>
           <Name>UIMouseMode</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>CheckSendInTheFriends</Name>
           <Type>bool</Type>
         </GlobalVariable>
       </Variables>
@@ -19955,7 +19961,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>aSpookybackground01</ScriptName>
                 <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\backgrounds\Exports\spookybackground01.wav</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-11-27 06:10:28Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-10-04 14:14:19Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -19968,7 +19974,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>aAllegroSonat1</ScriptName>
                 <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\backgrounds\AllegroSonat.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2025-02-18 04:18:29Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2025-02-11 21:52:25Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>

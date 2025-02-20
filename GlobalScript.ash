@@ -9,4 +9,5 @@ import function GoToObjectAndPickup(Object *pickup);
 import function SayTypewriterStyle(Character* sayingcharacter, String message, int delay);
 import function CheckDeathCount();
 import function BeginTimer();
+import function CrossOffList(int roomnum, GUI* mygui, Button* mycrossoff, Button* mycrossofff);
 //import Label LabelSeconds;
