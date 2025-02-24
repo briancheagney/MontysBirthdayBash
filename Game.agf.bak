@@ -3519,7 +3519,7 @@
                 <Font>8</Font>
                 <Height>22</Height>
                 <ID>5</ID>
-                <Left>76</Left>
+                <Left>87</Left>
                 <Locked>False</Locked>
                 <Name>LabelMinutes</Name>
                 <Text>00</Text>
@@ -3528,7 +3528,7 @@
                 <Top>43</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>150</Width>
+                <Width>48</Width>
                 <ZOrder>5</ZOrder>
               </GUILabel>
               <GUILabel>
@@ -3537,7 +3537,7 @@
                 <Font>8</Font>
                 <Height>26</Height>
                 <ID>6</ID>
-                <Left>234</Left>
+                <Left>139</Left>
                 <Locked>False</Locked>
                 <Name>Label10</Name>
                 <Text>:</Text>
@@ -3553,9 +3553,9 @@
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Font>8</Font>
-                <Height>22</Height>
+                <Height>21</Height>
                 <ID>7</ID>
-                <Left>253</Left>
+                <Left>153</Left>
                 <Locked>False</Locked>
                 <Name>LabelSeconds</Name>
                 <Text>00</Text>
@@ -3564,8 +3564,76 @@
                 <Top>43</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>130</Width>
+                <Width>63</Width>
                 <ZOrder>7</ZOrder>
+              </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>44</Height>
+                <ID>8</ID>
+                <Image>457</Image>
+                <Left>45</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button36</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>32</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>44</Width>
+                <ZOrder>8</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>43</Height>
+                <ID>9</ID>
+                <Image>458</Image>
+                <Left>281</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button39</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>32</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>40</Width>
+                <ZOrder>9</ZOrder>
+              </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>8</Font>
+                <Height>22</Height>
+                <ID>10</ID>
+                <Left>331</Left>
+                <Locked>False</Locked>
+                <Name>LabelNumDeaths</Name>
+                <Text>00</Text>
+                <TextAlignment>Right</TextAlignment>
+                <TextColor>37736</TextColor>
+                <Top>43</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>48</Width>
+                <ZOrder>10</ZOrder>
               </GUILabel>
             </Controls>
           </GUIMain>
@@ -8186,6 +8254,36 @@ return
                       <OffsetY>0</OffsetY>
                       <ImportHeight>104</ImportHeight>
                       <ImportWidth>147</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="457" Width="40" Height="43" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\timeachieveicon.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>43</ImportHeight>
+                      <ImportWidth>40</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="458" Width="40" Height="43" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\deatachieveicon.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>43</ImportHeight>
+                      <ImportWidth>40</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
