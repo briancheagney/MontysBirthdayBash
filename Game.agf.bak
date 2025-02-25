@@ -12564,7 +12564,7 @@ return
                     <Sprites>
                       <Sprite Slot="281" Width="622" Height="730" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\GrinderAnim\GrinderAnim_01.png</FileName>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\GrinderAnim\NewGrinderAnim_01.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>730</ImportHeight>
@@ -12579,7 +12579,7 @@ return
                       </Sprite>
                       <Sprite Slot="282" Width="622" Height="730" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\GrinderAnim\GrinderAnim_02.png</FileName>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\GrinderAnim\NewGrinderAnim_02.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>730</ImportHeight>
@@ -12594,7 +12594,7 @@ return
                       </Sprite>
                       <Sprite Slot="283" Width="622" Height="730" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\GrinderAnim\GrinderAnim_03.png</FileName>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\GrinderAnim\NewGrinderAnim_03.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>730</ImportHeight>
@@ -12609,7 +12609,7 @@ return
                       </Sprite>
                       <Sprite Slot="284" Width="622" Height="730" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\GrinderAnim\GrinderAnim_04.png</FileName>
+                          <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\GrinderAnim\NewGrinderAnim_04.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>730</ImportHeight>
@@ -14261,13 +14261,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="295" Width="622" Height="108" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="295" Width="315" Height="74" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\grindertop.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>108</ImportHeight>
-                      <ImportWidth>622</ImportWidth>
+                      <ImportHeight>74</ImportHeight>
+                      <ImportWidth>315</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -14291,13 +14291,13 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="304" Width="568" Height="262" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="304" Width="311" Height="203" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\grinderoverlay.png</FileName>
+                      <FileName>D:\DDocuments\FA2024\IGS\MonsterBirthday\Images\GrinderOverlayMore.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>262</ImportHeight>
-                      <ImportWidth>568</ImportWidth>
+                      <ImportHeight>203</ImportHeight>
+                      <ImportWidth>311</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
