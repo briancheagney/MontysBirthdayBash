@@ -10,4 +10,6 @@ import function SayTypewriterStyle(Character* sayingcharacter, String message, i
 import function CheckDeathCount();
 import function BeginTimer();
 import function CrossOffList(int roomnum, GUI* mygui, Button* mycrossoff, Button* mycrossofff);
+import function DropSpider();
+import function RaiseSpider();
 //import Label LabelSeconds;
