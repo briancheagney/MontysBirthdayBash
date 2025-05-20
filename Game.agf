@@ -11037,7 +11037,7 @@ return
                         <Sprites>
                           <Sprite Slot="400" Width="141" Height="132" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
-                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Cat\cattailwag_01.png</FileName>
+                              <FileName>D:\DDocuments\MonsterBirthday\Images\Cat\cat01.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>132</ImportHeight>
@@ -15255,7 +15255,7 @@ return
                   </Sprite>
                   <Sprite Slot="359" Width="141" Height="132" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\cat_02.png</FileName>
+                      <FileName>D:\DDocuments\MonsterBirthday\Images\Cat\catidle01b.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>132</ImportHeight>

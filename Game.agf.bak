@@ -11037,7 +11037,7 @@ return
                         <Sprites>
                           <Sprite Slot="400" Width="141" Height="132" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
-                              <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\Cat\cattailwag_01.png</FileName>
+                              <FileName>D:\DDocuments\MonsterBirthday\Images\Cat\cat01.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>132</ImportHeight>
@@ -15255,7 +15255,7 @@ return
                   </Sprite>
                   <Sprite Slot="359" Width="141" Height="132" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\cat_02.png</FileName>
+                      <FileName>D:\DDocuments\MonsterBirthday\Images\Cat\catidle01b.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>132</ImportHeight>
@@ -21746,7 +21746,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>aSpookybackground01</ScriptName>
                 <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\backgrounds\Exports\spookybackground01.wav</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-10-04 14:14:19Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-11-27 06:10:28Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -21759,7 +21759,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>aAllegroSonat1</ScriptName>
                 <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\backgrounds\AllegroSonat.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2025-02-11 21:52:25Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2025-02-19 01:01:07Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
