@@ -4958,7 +4958,7 @@
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iBurgers_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -5048,7 +5048,7 @@
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iLadder_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -5201,7 +5201,7 @@
           </InventoryItem>
           <InventoryItem>
             <CursorImage>509</CursorImage>
-            <Description xml:space="preserve">New inventory item</Description>
+            <Description xml:space="preserve">Paint Brush</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>42</ID>
@@ -5210,7 +5210,7 @@
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iPaintBrush_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -5246,7 +5246,7 @@
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iTeeHappy_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3">iTeeHappy_UseInv</Event>
@@ -5255,7 +5255,7 @@
           </InventoryItem>
           <InventoryItem>
             <CursorImage>513</CursorImage>
-            <Description xml:space="preserve">New inventory item</Description>
+            <Description xml:space="preserve">Complete Banner</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>45</ID>
@@ -5264,7 +5264,7 @@
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iIntestBanner_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
