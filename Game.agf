@@ -4994,7 +4994,7 @@
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iHeadCandles_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3">iHeadCandles_UseInv</Event>
@@ -21746,7 +21746,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>aSpookybackground01</ScriptName>
                 <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\backgrounds\Exports\spookybackground01.wav</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-11-27 06:10:28Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2025-08-01 15:31:21Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -21759,7 +21759,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>aAllegroSonat1</ScriptName>
                 <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\backgrounds\AllegroSonat.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2025-02-19 01:01:07Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2025-08-01 15:31:21Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
