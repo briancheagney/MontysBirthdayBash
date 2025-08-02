@@ -1,10 +1,20 @@
-Game : (room:3)[R 913] WARNING: Character cMonty speech view 40 does not have necessary loop 3; switching to loop 0.
-Game : (room:3)[D 4] WARNING: Character cMonty speech view 40 does not have necessary loop 2; switching to loop 0.
-Game : (room:3)[D 6] WARNING: Character cMonty speech view 40 does not have necessary loop 2; switching to loop 0.
-Game : (room:3)[D 7] WARNING: Character cMonty speech view 40 does not have necessary loop 2; switching to loop 0.
-Game : (room:3)[D 9] WARNING: Character cMonty speech view 40 does not have necessary loop 2; switching to loop 0.
-Game : (room:3)[D 10] WARNING: Character cMonty speech view 40 does not have necessary loop 2; switching to loop 0.
-Game : (room:3)[D 11] WARNING: Character cMonty speech view 40 does not have necessary loop 2; switching to loop 0.
 Game : (room:3) Dialog: all options have been turned off, stopping dialog.
-Game : (room:3)[G 1706] WARNING: Character cMonty speech view 40 does not have necessary loop 2; switching to loop 0.
-Game : (room:3)[G 1706] WARNING: Character cMonty speech view 40 does not have necessary loop 2; switching to loop 0.
+Game : (room:3) Dialog: all options have been turned off, stopping dialog.
+Game : (room:3)[R 913] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
+Game : (room:3)[G 1707] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
+Game : (room:3)[G 1707] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
+Game : (room:3)[R 673] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
+Game : (room:3)[G 1431] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
+Game : (room:5)[R 639] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:5)[R 639] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:5)[G 1401] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
+Game : (room:5)[G 2057] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
+Game : (room:5)[G 2052] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
+Game : (room:5)[G 1619] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
+Game : (room:5)[G 1386] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
+Game : (room:5)[G 1431] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
+Game : (room:5)[G 1431] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
+Game : (room:5)[G 1401] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
+Game : (room:3)[G 1233] WARNING: Character cMonty speech view 40 does not have necessary loop 2; switching to loop 0.
+Game : (room:3)[G 935] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.
+Game : (room:3)[G 912] WARNING: Character cMonty speech view 40 does not have necessary loop 1; switching to loop 0.

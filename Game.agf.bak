@@ -6312,6 +6312,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Human01: Just sign here, One Eyez.
+Human01: I'm sure there's a pen around here SOMEwherez.
 return
 ]]></Script>
             <DialogOptions />
