@@ -28,8 +28,8 @@
       <DeveloperURL />
       <DialogOptionsBackwards>False</DialogOptionsBackwards>
       <DialogOptionsBullet>0</DialogOptionsBullet>
-      <DialogOptionsGUI>0</DialogOptionsGUI>
-      <DialogOptionsGap>0</DialogOptionsGap>
+      <DialogOptionsGUI>7</DialogOptionsGUI>
+      <DialogOptionsGap>10</DialogOptionsGap>
       <DialogScriptNarrateFunction IsNull="True" />
       <DialogScriptSayFunction IsNull="True" />
       <DisplayMultipleInventory>False</DisplayMultipleInventory>
@@ -2884,8 +2884,8 @@
               <BackgroundImage>0</BackgroundImage>
               <ID>7</ID>
               <Name>gTextBorder</Name>
-              <Padding>3</Padding>
-              <TextColor>65523</TextColor>
+              <Padding>20</Padding>
+              <TextColor>65535</TextColor>
             </TextWindowGUI>
             <Controls>
               <GUITextWindowEdge>
@@ -4446,6 +4446,159 @@
                 <Width>262</Width>
                 <ZOrder>9</ZOrder>
               </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>2</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>150</Height>
+              <ID>25</ID>
+              <Left>300</Left>
+              <Name>gGui1</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>300</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>640</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls />
+          </GUIMain>
+          <GUIMain>
+            <TextWindowGUI>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>26</ID>
+              <Name>gGui2</Name>
+              <Padding>3</Padding>
+              <TextColor>0</TextColor>
+            </TextWindowGUI>
+            <Controls>
+              <GUITextWindowEdge>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Height>10</Height>
+                <ID>0</ID>
+                <Image>1</Image>
+                <Left>0</Left>
+                <Locked>False</Locked>
+                <Name />
+                <Top>0</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>10</Width>
+                <ZOrder>0</ZOrder>
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Height>10</Height>
+                <ID>1</ID>
+                <Image>1</Image>
+                <Left>0</Left>
+                <Locked>False</Locked>
+                <Name />
+                <Top>90</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>10</Width>
+                <ZOrder>1</ZOrder>
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Height>10</Height>
+                <ID>2</ID>
+                <Image>1</Image>
+                <Left>90</Left>
+                <Locked>False</Locked>
+                <Name />
+                <Top>0</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>10</Width>
+                <ZOrder>2</ZOrder>
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Height>10</Height>
+                <ID>3</ID>
+                <Image>1</Image>
+                <Left>90</Left>
+                <Locked>False</Locked>
+                <Name />
+                <Top>90</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>10</Width>
+                <ZOrder>3</ZOrder>
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Height>10</Height>
+                <ID>4</ID>
+                <Image>1</Image>
+                <Left>0</Left>
+                <Locked>False</Locked>
+                <Name />
+                <Top>40</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>10</Width>
+                <ZOrder>4</ZOrder>
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Height>10</Height>
+                <ID>5</ID>
+                <Image>1</Image>
+                <Left>90</Left>
+                <Locked>False</Locked>
+                <Name />
+                <Top>40</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>10</Width>
+                <ZOrder>5</ZOrder>
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Height>10</Height>
+                <ID>6</ID>
+                <Image>1</Image>
+                <Left>40</Left>
+                <Locked>False</Locked>
+                <Name />
+                <Top>0</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>10</Width>
+                <ZOrder>6</ZOrder>
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Height>10</Height>
+                <ID>7</ID>
+                <Image>1</Image>
+                <Left>40</Left>
+                <Locked>False</Locked>
+                <Name />
+                <Top>90</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>10</Width>
+                <ZOrder>7</ZOrder>
+              </GUITextWindowEdge>
             </Controls>
           </GUIMain>
         </GUIs>
