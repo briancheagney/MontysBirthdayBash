@@ -4887,7 +4887,7 @@
           <InventoryItem>
             <CursorImage>13</CursorImage>
             <Description xml:space="preserve">Fountain Pen</Description>
-            <HotspotX>65</HotspotX>
+            <HotspotX>87</HotspotX>
             <HotspotY>25</HotspotY>
             <ID>6</ID>
             <Image>13</Image>
@@ -7186,6 +7186,11 @@ return
           <Name>MakeBigBloodPuddle</Name>
           <Type>bool</Type>
         </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>FirstChest</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -7923,6 +7928,21 @@ return
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
                       <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="515" Width="66" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\bheagney\Documents\MontyMonster\Images\UI\chestblink.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>66</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
