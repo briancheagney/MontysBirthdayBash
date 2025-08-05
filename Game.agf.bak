@@ -16084,9 +16084,9 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="517" Width="166" Height="234" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="517" Width="166" Height="234" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\bheagney\Documents\MontyMonster\Images\Kitchen\pantrydoor.png</FileName>
+                      <FileName>C:\Users\bheagney\Documents\MontyMonster\Images\Kitchen\pantrydoor02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>234</ImportHeight>
@@ -16106,6 +16106,21 @@ return
                       <OffsetY>0</OffsetY>
                       <ImportHeight>275</ImportHeight>
                       <ImportWidth>26</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="519" Width="200" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\bheagney\Documents\MontyMonster\Images\Kitchen\shelf.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>100</ImportHeight>
+                      <ImportWidth>200</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
