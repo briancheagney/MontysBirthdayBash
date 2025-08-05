@@ -5853,8 +5853,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>65535</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>1556</StartX>
-            <StartY>378</StartY>
+            <StartX>1408</StartX>
+            <StartY>602</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -5900,8 +5900,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>64543</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>1730</StartX>
-            <StartY>326</StartY>
+            <StartX>1464</StartX>
+            <StartY>410</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -5947,8 +5947,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>50712</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>1834</StartX>
-            <StartY>576</StartY>
+            <StartX>1452</StartX>
+            <StartY>226</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -21124,7 +21124,7 @@ return
                     <Frames>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>0</ID>
                         <Image>156</Image>
                         <Sound>0</Sound>
@@ -21137,7 +21137,7 @@ return
                     <Frames>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>0</ID>
                         <Image>156</Image>
                         <Sound>0</Sound>
@@ -21187,7 +21187,7 @@ return
                     <Frames>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>0</ID>
                         <Image>155</Image>
                         <Sound>0</Sound>
@@ -21200,7 +21200,7 @@ return
                     <Frames>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>0</ID>
                         <Image>155</Image>
                         <Sound>0</Sound>
@@ -21250,7 +21250,7 @@ return
                     <Frames>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>0</ID>
                         <Image>154</Image>
                         <Sound>0</Sound>
@@ -21263,7 +21263,7 @@ return
                     <Frames>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>0</ID>
                         <Image>154</Image>
                         <Sound>0</Sound>
@@ -22142,7 +22142,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>aSpookybackground01</ScriptName>
                 <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\backgrounds\Exports\spookybackground01.wav</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-11-27 06:10:28Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2025-08-01 15:31:21Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -22155,7 +22155,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>aAllegroSonat1</ScriptName>
                 <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\backgrounds\AllegroSonat.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2025-02-19 01:01:07Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2025-08-01 15:31:21Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
