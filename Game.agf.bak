@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>30</AudioIndexer>
+      <AudioIndexer>31</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets xml:space="preserve">Windows, Web</BuildTargets>
@@ -5883,15 +5883,20 @@
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>23</NormalView>
-            <Properties />
+            <Properties>
+              <CustomProperty>
+                <Name>Description</Name>
+                <Value>Character</Value>
+              </CustomProperty>
+            </Properties>
             <RealName>Octy</RealName>
             <ScriptName>cOcty</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>1582</StartX>
-            <StartY>360</StartY>
+            <StartX>1838</StartX>
+            <StartY>560</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -6374,6 +6379,49 @@ stop
                     <Text>**purrrrrrrr**</Text>
                   </DialogOption>
                 </DialogOptions>
+              </Dialog>
+            </Dialogs>
+          </DialogFolder>
+          <DialogFolder Name="Friends">
+            <SubFolders />
+            <Dialogs>
+              <Dialog>
+                <ID>5</ID>
+                <Name>dGhosty01</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cMonty: Hey Ghosty! How's it hanging?
+cGhosty: W-w-w-ith Ch-ch-chaaiinnnsssss...
+return
+]]></Script>
+                <DialogOptions />
+              </Dialog>
+              <Dialog>
+                <ID>6</ID>
+                <Name>dOcty01</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cMonty: Good day, Octy. What have you been up to?
+cOcty: Nessie and I have been playing with the locals...
+cOcty: ...they're so squishy.
+return
+]]></Script>
+                <DialogOptions />
+              </Dialog>
+              <Dialog>
+                <ID>7</ID>
+                <Name>dBuzzy01</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cMonty: Wow, Buzzy, you look like garbage.
+cBuzzy: Thank you, Monty. The secret is maggots.
+cBuzzy: Squish maggots and apply their guts to your T-zone every morning.
+return
+]]></Script>
+                <DialogOptions />
               </Dialog>
             </Dialogs>
           </DialogFolder>
@@ -7284,6 +7332,16 @@ return
         <GlobalVariable>
           <DefaultValue>false</DefaultValue>
           <Name>FirstChest</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>SlamDoor</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>true</DefaultValue>
+          <Name>CanSlamDoor</Name>
           <Type>bool</Type>
         </GlobalVariable>
       </Variables>
@@ -22380,6 +22438,19 @@ See KeyboardMovement.txt for details.
                 <SourceFileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Audio\writing.wav</SourceFileName>
                 <Type>3</Type>
                 <FileLastModifiedDate>2025-02-18 18:03:28Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>27</ID>
+                <Index>31</Index>
+                <ScriptName>aDoorslam</ScriptName>
+                <SourceFileName>D:\DDocuments\MonsterBirthday\Audio\doorslam.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2025-08-05 14:09:06Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
