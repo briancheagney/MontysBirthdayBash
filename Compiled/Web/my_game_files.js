@@ -1,1 +1,0 @@
-var gamefiles = ['audio.vox', 'MontysBirthdayBash.ags', 'acsetup.cfg'];
