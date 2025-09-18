@@ -10427,6 +10427,56 @@ return
                           </Sprite>
                         </Sprites>
                       </SpriteFolder>
+                      <SpriteFolder Name="Breathe">
+                        <SubFolders />
+                        <Sprites>
+                          <Sprite Slot="555" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FunStuff\Montys\Images\MontyBreath\Mbreathe01.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="556" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FunStuff\Montys\Images\MontyBreath\Mbreathe02.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="557" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FunStuff\Montys\Images\MontyBreath\Mbreathe03.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>186</ImportHeight>
+                              <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                        </Sprites>
+                      </SpriteFolder>
                     </SubFolders>
                     <Sprites>
                       <Sprite Slot="2" Width="150" Height="186" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -15772,7 +15822,7 @@ return
                   </Sprite>
                   <Sprite Slot="95" Width="202" Height="330" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>D:\DDriveForHeagney\DDocuments\FA24\AGS\Monster\Images\door_03.png</FileName>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FunStuff\Montys\Images\door_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>330</ImportHeight>
@@ -16737,6 +16787,21 @@ return
                       <OffsetY>0</OffsetY>
                       <ImportHeight>100</ImportHeight>
                       <ImportWidth>200</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="554" Width="301" Height="183" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\DDriveForHeagney\DDocuments\FunStuff\Montys\Images\floorcover.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>183</ImportHeight>
+                      <ImportWidth>301</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
