@@ -12,4 +12,5 @@ import function BeginTimer();
 import function CrossOffList(int roomnum, GUI* mygui, Button* mycrossoff, Button* mycrossofff);
 import function DropSpider();
 import function RaiseSpider();
+import function SayWrongThingAt(Object *obj); 
 //import Label LabelSeconds;
