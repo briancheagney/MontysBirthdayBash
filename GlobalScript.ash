@@ -13,4 +13,5 @@ import function CrossOffList(int roomnum, GUI* mygui, Button* mycrossoff, Button
 import function DropSpider();
 import function RaiseSpider();
 import function SayWrongThingAt(Object *obj); 
+import function SayWrongThingAtMouse();
 //import Label LabelSeconds;
