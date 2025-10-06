@@ -3150,7 +3150,7 @@
                 <Height>80</Height>
                 <ID>0</ID>
                 <Image>315</Image>
-                <Left>437</Left>
+                <Left>538</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>318</MouseoverImage>
                 <Name>ButtonPlay</Name>
@@ -3160,7 +3160,7 @@
                 <Text>Play</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>256</TextColor>
-                <Top>250</Top>
+                <Top>248</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>380</Width>
@@ -3200,7 +3200,7 @@
                 <Height>80</Height>
                 <ID>2</ID>
                 <Image>315</Image>
-                <Left>431</Left>
+                <Left>538</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>318</MouseoverImage>
                 <Name>Button20</Name>
@@ -3210,7 +3210,7 @@
                 <Text>Quit</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>256</TextColor>
-                <Top>426</Top>
+                <Top>455</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>380</Width>
@@ -3225,7 +3225,7 @@
                 <Height>80</Height>
                 <ID>3</ID>
                 <Image>315</Image>
-                <Left>437</Left>
+                <Left>538</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>318</MouseoverImage>
                 <Name>Button21</Name>
@@ -3235,7 +3235,7 @@
                 <Text xml:space="preserve">Load Game</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>256</TextColor>
-                <Top>339</Top>
+                <Top>350</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>380</Width>
@@ -3247,18 +3247,43 @@
                 <Font>0</Font>
                 <Height>34</Height>
                 <ID>4</ID>
-                <Left>307</Left>
+                <Left>419</Left>
                 <Locked>False</Locked>
                 <Name>Label5</Name>
                 <Text xml:space="preserve">Game Design by Brian Heagney</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>34800</TextColor>
-                <Top>639</Top>
+                <Top>643</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>647</Width>
                 <ZOrder>4</ZOrder>
               </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>False</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>600</Height>
+                <ID>5</ID>
+                <Image>571</Image>
+                <Left>26</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button41</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Button41_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>190</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>484</Width>
+                <ZOrder>5</ZOrder>
+              </GUIButton>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -10734,6 +10759,161 @@ return
                               <OffsetY>0</OffsetY>
                               <ImportHeight>186</ImportHeight>
                               <ImportWidth>150</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                        </Sprites>
+                      </SpriteFolder>
+                      <SpriteFolder Name="UI">
+                        <SubFolders />
+                        <Sprites>
+                          <Sprite Slot="571" Width="484" Height="600" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FunStuff\Montys\Images\MontUI\Resize\MontUI_01.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>600</ImportHeight>
+                              <ImportWidth>484</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="572" Width="484" Height="600" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FunStuff\Montys\Images\MontUI\Resize\MontUI_02.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>600</ImportHeight>
+                              <ImportWidth>484</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="573" Width="484" Height="600" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FunStuff\Montys\Images\MontUI\Resize\MontUI_03.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>600</ImportHeight>
+                              <ImportWidth>484</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="574" Width="484" Height="600" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FunStuff\Montys\Images\MontUI\Resize\MontUI_04.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>600</ImportHeight>
+                              <ImportWidth>484</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="575" Width="484" Height="600" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FunStuff\Montys\Images\MontUI\Resize\MontUI_05.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>600</ImportHeight>
+                              <ImportWidth>484</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="576" Width="484" Height="600" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FunStuff\Montys\Images\MontUI\Resize\MontUI_Blink01.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>600</ImportHeight>
+                              <ImportWidth>484</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="577" Width="484" Height="600" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FunStuff\Montys\Images\MontUI\Resize\MontUI_Blink02.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>600</ImportHeight>
+                              <ImportWidth>484</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="578" Width="484" Height="600" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FunStuff\Montys\Images\MontUI\Resize\MontUI_Blink03.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>600</ImportHeight>
+                              <ImportWidth>484</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="579" Width="484" Height="600" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FunStuff\Montys\Images\MontUI\Resize\MontUI_Blink04.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>600</ImportHeight>
+                              <ImportWidth>484</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="580" Width="484" Height="600" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>D:\DDriveForHeagney\DDocuments\FunStuff\Montys\Images\MontUI\Resize\MontUI_Blink05.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>600</ImportHeight>
+                              <ImportWidth>484</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
